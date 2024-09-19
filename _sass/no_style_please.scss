@@ -24,7 +24,13 @@ body {
 }
 
 a {
-  filter: invert(1);
+  color: yellow;
+  &:visited {
+    color: yellowgreen;
+  }
+  &:active {
+    color: #ffcf3e;
+  }
   text-decoration: underline;
 }
 
@@ -53,7 +59,7 @@ li {
 }
 
 *:target {
-  background: yellow;
+  background: rgb(10, 20, 60);
 }
 
 .w {
@@ -100,7 +106,7 @@ code.highlighter-rouge {
   padding: 0px 4px;
   margin: 0px -3px;
   color: #de8af8;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 blockquote {
