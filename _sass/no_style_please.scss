@@ -1,0 +1,120 @@
+@import "rouge_dark";
+
+// bg color is also needed in html in order to
+// block body's background propagation
+// see: https://stackoverflow.com/a/61265706
+html,
+body {
+  background: black;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+  tab-size: 4;
+}
+
+a {
+  filter: invert(1);
+  text-decoration: underline;
+}
+
+.post-meta {
+  text-align: right;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+*:target {
+  background: yellow;
+}
+
+.w {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+hr {
+  text-align: center;
+  border: 0;
+
+  &:before {
+    content: "/////";
+  }
+  &:after {
+    content: attr(data-content) "/////";
+  }
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+div.highlighter-rouge code {
+  background: rgb(15, 20, 25);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+code.highlighter-rouge {
+  background: rgb(20, 25, 30);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 0px 4px;
+  margin: 0px -3px;
+  color: #de8af8;
+  border-radius: 2px;
+}
+
+blockquote {
+  font-style: italic;
+  border: thin solid black;
+  padding: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
