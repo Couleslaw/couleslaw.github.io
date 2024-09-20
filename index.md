@@ -26,6 +26,6 @@ You can contact me at `smolikj (at) matfyz.cz`
 - [Direction Field Visualizer](https://github.com/Couleslaw/Direction-Field-Visualizer)
   - a python application for visualizing direction fields and an art generator at the same time! There is also an [image gallery](https://github.com/Couleslaw/Direction-Field-Visualizer/wiki/gallery).
 - [Introduction to Finite Calculus](https://raw.githack.com/Couleslaw/my-papers/main/cs/Finite_Calculus.pdf) - in Czech
-  - Finite Calculus is probably the most interesting field of mathematics that is completely absent from the standard university courses. It's beauty lies in its simplicity and power. It essentially allows you to find sums of infinite series as if you were solving integrals.
-  - I have first learned about this fascinating topic from the legendary book [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) by Graham, Knuth and Patashnik.
+  - Finite Calculus is probably the most interesting field of mathematics that is completely absent from the standard university curriculum. Its beauty lies in its simplicity and power. It essentially allows you to find sums of infinite series as if you were solving integrals.
   - This text is a short introduction to the subject, drawing parallels to the well known differential calculus and culminating in the proof of the Gregory-Newton interpolation formula. There are also about 20 solved exercises.
+  - I have first learned about this fascinating topic from the legendary book [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) by Graham, Knuth and Patashnik.
