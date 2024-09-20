@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## Rozcestnik poznamek
+## Rozcestnik poznamkami z Advanced C#
 
 - [Explicitni a implicitni konverze & Genericke metody](notes/konverze_genericke-typy-a-metody)
 - [Covariance a contravariance generickych typu](notes/covariance)

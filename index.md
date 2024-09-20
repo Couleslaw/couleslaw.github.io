@@ -9,6 +9,8 @@ I am a student at the Faculty of Mathematics and Physics, Charles University in 
 
 You can contact me at `smolikj (at) matfyz.cz`
 
+> Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present. --- Master Oogway
+
 ## References
 
 - [my-papers](papers) - a collection of math related texts I have written over the years; most of them are in Czech
