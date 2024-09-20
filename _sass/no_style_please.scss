@@ -148,7 +148,7 @@ img {
 @media (max-width: 500px) {
   .w {
     font-size: smaller;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
   blockquote {
     padding: 0.5rem;
@@ -156,5 +156,8 @@ img {
   }
   ul {
     padding-left: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
   }
 }
