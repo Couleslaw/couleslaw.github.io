@@ -29,3 +29,4 @@ title: MFF Notes | Jakub Smolik
 - [Lineární algebra 2](02/Lingebra-2.pdf)
 - [Diskrétní matematika](01/Diskretni-matematika.pdf)
 - [Algoritmy a datové struktury 1](02/ADS-1.pdf)
+- [Úvod do Linuxu](https://github.com/Couleslaw/linux-notes)
