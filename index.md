@@ -5,7 +5,7 @@ title: Webpage of Jakub Smolik
 
 ## About
 
-I am a student at the Faculty of Mathematics and Physics, Charles University in Prague. I enjoy studying mathematics, lately I've been focusing on Set Theory, Ordinary Differential Equations and Number theory. Other than that, I enjoy Sci-fi and Fantasy literature, especially The Witcher series and works by Brandon Sanderson.
+I am a CS student at the Faculty of Mathematics and Physics, Charles University in Prague. Lately I've been focusing on Set Theory, Ordinary Differential Equations and Number theory. Other than that, I enjoy Sci-fi and Fantasy literature, especially The Witcher series and works by Brandon Sanderson.
 
 You can contact me at `smolikj (at) matfyz.cz`
 
