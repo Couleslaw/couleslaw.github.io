@@ -27,4 +27,4 @@ layout: page
 - [Přírodou inspirované algoritmy](04/Prirodou-inspirovane-algoritmy.pdf)
 - [Úvod do umělé inteligence](04/Uvod-do-AI.pdf)
 - [Teorie množin](04/Teorie-mnozin.pdf)
-- [Advanced C#](04/Advanced-CSharp/!rozcestnik.md)
+- [Advanced C#](Advanced-CSharp/)

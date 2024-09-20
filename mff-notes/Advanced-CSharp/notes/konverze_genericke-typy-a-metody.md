@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Implicitini konverze
 
 ![C# defaultni konverze](images/implicit-conversion.png)

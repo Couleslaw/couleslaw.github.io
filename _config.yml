@@ -1,11 +1,9 @@
 theme: null
-name: Kuba Smolik
-title: Kuba Smolik
 domain: couleslaw.github.io
 baseurl: ""
 url: https://couleslaw.github.io
 github_username: couleslaw
-favicon: /favicon.ico
+favicon: favicon.ico
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge

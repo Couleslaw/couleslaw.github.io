@@ -152,61 +152,61 @@ foreach (int x in a) Console.WriteLine(x);
 ```
 
 ```c#
-	class A : IEnumerable<int> {
-		private int[] x1 = { 1, 2 };
-		private int[] x2 = { 3, 4, 5 };
+class A : IEnumerable<int> {
+    private int[] x1 = { 1, 2 };
+    private int[] x2 = { 3, 4, 5 };
 
-		public IEnumerator<int> GetEnumerator() => new Enumerator(this);
+    public IEnumerator<int> GetEnumerator() => new Enumerator(this);
 
-		private class Enumerator : IEnumerator<int> {
-			private A a;
-			private int index = -1;
-			private bool firstArray = true;
+    private class Enumerator : IEnumerator<int> {
+        private A a;
+        private int index = -1;
+        private bool firstArray = true;
 
-			public Enumerator(A a) => this.a = a;
+        public Enumerator(A a) => this.a = a;
 
-			public int Current {
-				get {
-					if (firstArray) {
-						if (index < 0) {
-							throw new InvalidOperationException("Enumeration has not started. Call MoveNext.");
-						} else {
-							return a.x1[index];
-						}
-					} else {
-						if (index >= a.x2.Length) {
-							throw new InvalidOperationException("Enumeration already finished.");
-						} else {
-							return a.x2[index];
-						}
-					}
-				}
-			}
+        public int Current {
+            get {
+                if (firstArray) {
+                    if (index < 0) {
+                        throw new InvalidOperationException("Enumeration has not started. Call MoveNext.");
+                    } else {
+                        return a.x1[index];
+                    }
+                } else {
+                    if (index >= a.x2.Length) {
+                        throw new InvalidOperationException("Enumeration already finished.");
+                    } else {
+                        return a.x2[index];
+                    }
+                }
+            }
+        }
 
-			public bool MoveNext() {
-				if (firstArray) {
-					if (index < a.x1.Length - 1) {
-						index++;
-						return true;
-					} else {
-						index = -1;
-						firstArray = false;
-					}
-				}
+        public bool MoveNext() {
+            if (firstArray) {
+                if (index < a.x1.Length - 1) {
+                    index++;
+                    return true;
+                } else {
+                    index = -1;
+                    firstArray = false;
+                }
+            }
 
-				if (index < a.x2.Length - 1) {
-					index++;
-					return true;
-				} else {
-					if (index < a.x2.Length) index++;
-					return false;
-				}
-			}
+            if (index < a.x2.Length - 1) {
+                index++;
+                return true;
+            } else {
+                if (index < a.x2.Length) index++;
+                return false;
+            }
+        }
 
-			public void Reset() { }
-			public void Dispose() { }
-		}
-	}
+        public void Reset() { }
+        public void Dispose() { }
+    }
+}
 ```
 
 V podstate musim udelat nejaky jednoduchy stavovy automat. Proto ma C# iteratorove metody, ktere tohle delaji za me. Ale porad se to preklada do nejakeho konecneho automatu co uvnitr pouziva switch a goto. Tu stejnou vec bych napsal jako
