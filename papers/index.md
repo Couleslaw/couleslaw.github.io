@@ -12,12 +12,6 @@ This paper was published on [arXiv](https://arxiv.org/abs/2310.04872).
 
 ## Czech texts
 
-### [Pascalův trojúhelník](https://raw.githack.com/Couleslaw/my-papers/main/cs/Pascals_Triangle.pdf) (2022)
-
-- zobecněná kombinační čísla a jejich vlastnosti
-- důkaz zobecněné binomické věty
-- nejzajímavější vlastnosti Pascalova trojúhelníku
-
 ### [Úvod do diskrétní analýzy](https://raw.githack.com/Couleslaw/my-papers/main/cs/Finite_Calculus.pdf) (2024)
 
 Všichni známe klasickou spojitou analýzu zabývající se derivacemi a integrály. Diskrétní analýza se zabývá diferencemi a sumami a umožňuje nám hledat součty řad podobně jako určité integrály.
@@ -51,6 +45,12 @@ Obsahují:
 - ordinální čísla jako typy dobře uspořádaných množin
 - princip transfinitní indukce, konstrukce transfinitní rekurzí
 - důkaz, že $\mathbf{R}^3$ je sjednocením disjunktních jednotkových kružnic pomocí transfinitní rekurze
+
+### [Pascalův trojúhelník](https://raw.githack.com/Couleslaw/my-papers/main/cs/Pascals_Triangle.pdf) (2022)
+
+- zobecněná kombinační čísla a jejich vlastnosti
+- důkaz zobecněné binomické věty
+- nejzajímavější vlastnosti Pascalova trojúhelníku
 
 ### [Stirlingův vzorec](https://raw.githack.com/Couleslaw/my-papers/main/cs/Stirlings_Formula_CS.pdf) (2023)
 
