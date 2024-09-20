@@ -1,5 +1,6 @@
 ---
 layout: page
+title: MFF Notes | Jakub Smolik
 ---
 
 # Zpracované předměty

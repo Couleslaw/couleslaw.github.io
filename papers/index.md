@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Papers | Jakub Smolik
 ---
 
 ## English texts

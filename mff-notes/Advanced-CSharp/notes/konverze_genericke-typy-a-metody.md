@@ -8,7 +8,7 @@ layout: page
 
 Pozor, to ze mezi necim existuje implicitni koverze neznamena, ze to nejak od sebe dedi!!!
 
-U te implicitni konverze na float/double se muze ztratit presnost. Neexistuji implicitni konverze s bool.i
+U te implicitni konverze na float/double se muze ztratit presnost. Neexistuji implicitni konverze s bool.
 
 ![C# dedicnost](images/dedicnost.png)
 

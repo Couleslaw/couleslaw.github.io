@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Advanced C#
 ---
 
 ## Rozcestnik poznamkami z Advanced C#
