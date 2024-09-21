@@ -42,11 +42,11 @@ body {
 
 a {
   color: rgb(255, 255, 40);
-  &:visited {
-    color: yellowgreen;
+  &:hover {
+    color: rgb(230, 230, 0);
   }
   &:active {
-    color: #ffcf3e;
+    color: yellowgreen;
   }
   text-decoration: underline;
 }
