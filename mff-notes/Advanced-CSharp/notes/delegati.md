@@ -77,20 +77,3 @@ TD MethodInfo.CreateDelegate<TD>() where TD : Delegate
 ```
 
 Takze kdyz mam `MethodInfo` a chci tu metodu casto volat, tak vyrobim delegata a misto `MethodInfo.Invoke` volam `delegat.Invoke`, coz je mnohem rychlejsi.
-
-## Extended track prednasky
-
-9A. prednaska EXTENDED TRACK = BONUS po 9. prednasce [nad ramec zkousky] =
-ujasneni si delegatu na virtualni metody, koncept multicast delegatu
-(MulticastDelegate), pripomenuti immutability delegatu:
-https://youtu.be/-1PNSzoMQDQ
-
-9B. prednaska EXTENDED TRACK = BONUS po 9. prednasce [nad ramec zkousky] =
-variance negenerickych delegatu, variance generickych delegatu, koncept C#
-event, autoimplemented events, WeakReference:
-https://youtu.be/5btSUQVXHkw
-
-9C. prednaska EXTENDED TRACK = BONUS po 9. prednasce [nad ramec zkousky] =
-moznost vytvoreni open delegate na instancni metodu jako ekvivalent member
-pointeru z C++, a closed delegate na statickou metodu:
-https://youtu.be/nlNhw7FFWy8
