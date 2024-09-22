@@ -33,3 +33,6 @@ You can contact me at `smolikj (at) matfyz.cz`
   - Finite Calculus is probably the most interesting field of mathematics that you've never heard of. Its beauty lies in its simplicity and power. It essentially allows you to find sums of series as if you were solving definite integrals.
   - This text is a short introduction to the subject, drawing parallels to the well known differential calculus and culminating in the proof of the Gregory-Newton interpolation formula. There are also about 20 solved exercises.
   - I have first learned about this fascinating topic from the book [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) by Graham, Knuth and Patashnik.
+- [Pacman](https://github.com/Couleslaw/Pac-man)
+  - the original Pacman game implemented in Unity
+  - my main reference for game mechanics was [The Pac-Man Dossier](https://pacman.holenet.info/)
