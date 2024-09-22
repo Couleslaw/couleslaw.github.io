@@ -25,7 +25,7 @@ You can contact me at `smolikj (at) matfyz.cz`
 ## Favorite projects
 
 - [Introduction to Set Theory](https://raw.githack.com/Couleslaw/my-papers/main/cs/Introduction_To_Set_Theory.pdf) - in Czech
-  - about 50 pages long, it covers the basics of the Zermeo-Fraenkel set theory, ordinals and the axiom of choice
+  - about 50 pages long, it covers the basics of the Zermelo-Fraenkel set theory, ordinals and the axiom of choice
   - I believe this to be a good starting point for anyone interested in Set Theory or the foundations of mathematics in general
 - [Direction Field Visualizer](https://github.com/Couleslaw/Direction-Field-Visualizer)
   - a python application for visualizing direction fields and an art generator at the same time! There is also an [image gallery](https://github.com/Couleslaw/Direction-Field-Visualizer/wiki/gallery).
