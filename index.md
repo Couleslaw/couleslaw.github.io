@@ -21,6 +21,8 @@ You can contact me at `smolikj (at) matfyz.cz`
 - [mff-notes](mff-notes) - a collection of notes from various courses at MFF UK
 - [github.com](https://github.com/couleslaw) - my github profile
 - [itch.io](https://itch.io/profile/couleslaw) - my game jam submissions
+- [bookmarks](bookmarks.html) - useful links and resources
+- [gympl](gympl) - notes (and other stuff) from high school
 
 ## Favorite projects
 
@@ -32,7 +34,7 @@ You can contact me at `smolikj (at) matfyz.cz`
 - [Introduction to Finite Calculus](https://raw.githack.com/Couleslaw/my-papers/main/cs/Finite_Calculus.pdf) - in Czech
   - Finite Calculus is probably the most interesting field of mathematics that you've never heard of. Its beauty lies in its simplicity and power. It essentially allows you to find sums of series as if you were solving definite integrals.
   - This text is a short introduction to the subject, drawing parallels to the well known differential calculus and culminating in the proof of the Gregory-Newton interpolation formula. There are also about 20 solved exercises.
-  - I have first learned about this fascinating topic from the book [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) by Graham, Knuth and Patashnik.
+  - I have first learned about this fascinating topic from the excellent [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) by Graham, Knuth and Patashnik.
 - [Pacman](https://github.com/Couleslaw/Pac-man)
   - the original Pacman game implemented in Unity
   - my main reference for game mechanics was [The Pac-Man Dossier](https://pacman.holenet.info/)
