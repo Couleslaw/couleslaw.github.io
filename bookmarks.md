@@ -27,7 +27,7 @@ title: Bookmarks | Jakub Smolik
 
 - [git](https://mj.ucw.cz/papers/git.pdf), [vim](https://vim.rtorr.com/), [regex](https://www.rexegg.com/regex-quickstart.html)
 - [python](https://gto76.github.io/python-cheatsheet/), [bash](https://devhints.io/bash), [c++](https://quickref.me/cpp)
-- [latex](https://wch.github.io/latexsheet/latexsheet-a4.pdf), [markdown](https://www.markdownguide.org/cheat-sheet/), [html](https://websitesetup.org/wp-content/uploads/2019/11/html5-tag-cheat-sheet-2019.pdf)
+- [latex](https://wch.github.io/latexsheet/latexsheet-a4.pdf), [markdown](https://www.markdownguide.org/cheat-sheet/), [metapost](http://www.tlhiv.org/MetaPost/examples/examples.html)
 
 ### Other
 
