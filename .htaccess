@@ -1,2 +1,0 @@
-RewriteEngine on
-RewriteRule my-papers/cs/(.+) https://raw.githack.com/Couleslaw/my-papers/main/$1
