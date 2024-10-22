@@ -31,5 +31,5 @@ title: Bookmarks | Jakub Smolik
 
 ### Other
 
-- [Euclid's elements](https://www.c82.net/euclid/) - a beautiful interactive reproduction
+- [Euclid's elements](https://www.c82.net/euclid/en) - a beautiful interactive reproduction
 - [Bonjour](https://online.bonjourr.fr/) - customizable minimalistic browser home page
