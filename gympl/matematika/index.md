@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gympl Notes | Jakub Smolik
+title: Gympl | Jakub Smolik
 ---
 
 ## Matematika
