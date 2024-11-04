@@ -15,6 +15,7 @@ title: Bookmarks | Jakub Smolik
 - [yandex](https://yandex.com/images/) - reverse image search
 - onelook - [dictionary](https://www.onelook.com/thesaurus/) and [reverse dictionary](https://www.onelook.com/reverse-dictionary)
 - [temp-mail](https://temp-mail.org/) - disposable emails
+- [coolors](https://coolors.co/generate) - color palette generator
 
 ### Technical
 
