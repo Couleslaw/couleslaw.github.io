@@ -34,3 +34,5 @@ title: Bookmarks | Jakub Smolik
 
 - [Euclid's elements](https://www.c82.net/euclid/en) - a beautiful interactive reproduction
 - [Bonjour](https://online.bonjourr.fr/) - customizable minimalistic browser home page
+- [Ximera](https://ximera.osu.edu/) - free maths textbooks
+  - [calculus](https://ximera.osu.edu/mooculus), [more calculus and combinatorics](https://ximera.osu.edu/math) [lingebra](https://ximera.osu.edu/linearalgebra/textbook), [ODEs](https://ximera.osu.edu/ode/main)
