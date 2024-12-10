@@ -5,6 +5,13 @@ title: MFF Notes | Jakub Smolik
 
 # Zpracované předměty
 
+## 2024/2025
+
+- Erasmus (Trinity College Dublin)
+  - [Ordinary Differential Equations](05/ODE.pdf)
+  - [Fourier Analysis](05/Fourier-analysis.pdf)
+  - [Computational Mathematics](05/Computational-mathematics.pdf)
+
 ## 2023/2024
 
 - [Algoritmy a datové struktury 2](03/ADS-2.pdf)
