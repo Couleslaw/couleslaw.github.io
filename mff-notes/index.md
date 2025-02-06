@@ -11,6 +11,7 @@ title: MFF Notes | Jakub Smolik
   - [Ordinary Differential Equations](05/ODE.pdf)
   - [Fourier Analysis](05/Fourier-analysis.pdf)
   - [Computational Mathematics](05/Computational-mathematics.pdf)
+  - Multivariate Linear Analysis - [Theory](05/Multivariate-linear-analysis/Multivariate-linear-analysis.pdf), [R notes](05/Multivariate-linear-analysis/)
 
 ## 2023/2024
 
@@ -25,7 +26,7 @@ title: MFF Notes | Jakub Smolik
 - [Přírodou inspirované algoritmy](04/Prirodou-inspirovane-algoritmy.pdf)
 - [Úvod do umělé inteligence](04/Uvod-do-AI.pdf)
 - [Teorie množin](04/Teorie-mnozin.pdf)
-- [Advanced C#](Advanced-CSharp/)
+- [Advanced C#](04/Advanced-CSharp/)
 
 ## 2022/2023
 
