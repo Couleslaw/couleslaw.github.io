@@ -7,6 +7,8 @@ title: MFF Notes | Jakub Smolik
 
 ## 2024/2025
 
+- [Strojové učení v bioinformatice](06/bioinf)
+
 - Erasmus (Trinity College Dublin)
   - [Ordinary Differential Equations](05/ODE.pdf)
   - [Fourier Analysis](05/Fourier-analysis.pdf)
