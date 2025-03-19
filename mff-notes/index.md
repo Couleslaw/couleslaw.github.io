@@ -7,7 +7,7 @@ title: MFF Notes | Jakub Smolik
 
 ## 2024/2025
 
-- [Strojové učení v bioinformatice](06/bioinf)
+- [Discrete and Continuous Optimization](06/optimization.pdf)
 
 - Erasmus (Trinity College Dublin)
   - [Ordinary Differential Equations](05/ODE.pdf)
