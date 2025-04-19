@@ -20,6 +20,7 @@ title: Bookmarks | Jakub Smolik
 ### Technical
 
 - [regex101](https://regex101.com/) - regex tester
+- [dezmi](https://dezmi.com/design-resources/font-finder/) - reverse font finder
 - [Prompt-builder](https://gist.githubusercontent.com/patrickstorm/90dd56cc4f0cf8327429641a8481a9c2/raw/b2a140970b87a250d67e5d80c13735ad52fccb99/txt) - create prompts for AI using AI
 - [Use-the-keyboard](https://usethekeyboard.com/) - keyboard shortcuts for apps and websites
 - [Monkeytype](https://monkeytype.com/) - typing test
