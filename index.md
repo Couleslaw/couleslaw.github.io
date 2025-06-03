@@ -26,10 +26,10 @@ You can contact me at `smolikj (at) matfyz.cz`
 
 ## Favorite projects
 
-- [Project L](https://github.com/Couleslaw/Project-L)
+- [Project L Digital Board Game](https://github.com/Couleslaw/Project-L)
   - Digital version of the **Project L** [board game](https://www.boardcubator.com/games/project-l/) implemented in Unity.
-  - The game can be played [online](https://couleslaw.github.io/Project-L/play/) or downloaded for Windows, MacOS or Linux.
-  - The project provides a simple API for implementing intelligent agents who can play the game against you or against each other.
+  - **Project L** is a fast-paced strategic board game for up to 4 players, where you complete puzzles by filling them in with Tetris-like pieces.
+  - The game provides a simple API for implementing intelligent agents who can play the game against you or against each other.
   - This was my Individual Software Project (_ročníkový projekt_) at MFF UK.
 - [Introduction to Set Theory](https://raw.githack.com/Couleslaw/my-papers/main/cs/Introduction_To_Set_Theory.pdf) - in Czech
   - About 50 pages long, it covers the basics of the Zermelo-Fraenkel set theory, ordinals and the axiom of choice
