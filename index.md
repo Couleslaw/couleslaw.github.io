@@ -17,12 +17,12 @@ You can contact me at `smolikj (at) matfyz.cz`
 
 ## References
 
-- [my-papers](papers) - a collection of math related texts I have written over the years; most of them are in Czech
-- [mff-notes](mff-notes) - a collection of notes from various courses at MFF UK
 - [github.com](https://github.com/couleslaw) - my github profile
 - [itch.io](https://itch.io/profile/couleslaw) - my game jam submissions
-- [bookmarks](bookmarks.html) - useful links and resources
-- [gympl](gympl) - notes (and other stuff) from high school
+- [my-papers](papers) - a collection of math related texts I have written over the years; most of them are in Czech
+- [mff-notes](mff-notes) - a collection of notes from various courses at MFF UK
+- [other resources](other) - other notes and learning resources
+- [bookmarks](./bookmarks) - useful tools and cheatsheets
 
 ## Favorite projects
 

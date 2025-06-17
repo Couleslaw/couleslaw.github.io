@@ -3,12 +3,14 @@ layout: page
 title: MFF Notes | Jakub Smolik
 ---
 
-# Zpracované předměty
+# University Notes
 
 ## 2024/2025
 
-- [Discrete and Continuous Optimization](06/optimization.pdf)
-
+- [Combinatorics and Graphs 2](06/Kombagra-2.pdf)
+- Discrete and Continuous Optimization
+  - [Discrete Optimization](06/Optimization-discrete.pdf)
+  - [Continuous Optimization](06/Optimization-continuous.pdf)
 - Erasmus (Trinity College Dublin)
   - [Ordinary Differential Equations](05/ODE.pdf)
   - [Fourier Analysis](05/Fourier-analysis.pdf)
