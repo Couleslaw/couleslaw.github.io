@@ -18,7 +18,7 @@ You can contact me at `smolikj (at) matfyz.cz`
 ## References
 
 - [my-papers](papers) - a collection of math related texts I have written over the years; most of them are in Czech
-- [mff-notes](mff-notes) - a collection of notes from various university courses
+- [mff-notes](mff-notes) - notes from various university courses I have taken
 - [github.com](https://github.com/couleslaw) - my github profile
 - [itch.io](https://itch.io/profile/couleslaw) - my game jam submissions
 - [other resources](other) - other notes and learning resources
