@@ -7,7 +7,7 @@ title: MFF Notes | Jakub Smolik
 
 - [CS] = written in Czech
 - [EN] = written in English
-- [Tex] = written in LaTeX
+- [Tex] = typed in LaTeX
 - [Trinity] = taken during my Erasmus at Trinity College Dublin
 
 #### Linear Algebra & Analysis
