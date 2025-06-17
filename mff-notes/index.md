@@ -5,19 +5,24 @@ title: MFF Notes | Jakub Smolik
 
 # University Notes
 
+- [CS] = written in Czech
+- [EN] = written in English
+- [Tex] = written in LaTeX
+- [Trinity] = taken during my Erasmus at Trinity College Dublin
+
 #### Linear Algebra & Analysis
 
 - [Lineární algebra 1](01/Lingebra-1.pdf) [CS]
 - [Lineární algebra 2](02/Lingebra-2.pdf) [CS]
 - [Matematická analýza 2](03/Analyza-2.pdf) [CS]
 - Mathematical Analysis 3 - to be added later
-- [Ordinary Differential Equations](05/ODE.pdf) [EN]
-- [Fourier Analysis](05/Fourier-analysis.pdf) [EN]
+- [Ordinary Differential Equations](05/ODE.pdf) [EN, Trinity]
+- [Fourier Analysis](05/Fourier-analysis.pdf) [EN, Trinity]
 
 #### Discrete Mathematics & Logic
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
-- [Teorie množin](04/Teorie-mnozin.pdf) [CS]
+- [Teorie množin](04/Teorie-mnozin.pdf) [CS, Tex]
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
@@ -34,12 +39,12 @@ title: MFF Notes | Jakub Smolik
 
 - [Lineární programování](04/Linearni-programovani.pdf) [CS]
 - [Discrete](06/Optimization-discrete.pdf) and [Continuous](06/Optimization-continuous.pdf) Optimization [EN]
-- [Computational Mathematics](05/Computational-mathematics.pdf) [EN]
+- [Computational Mathematics](05/Computational-mathematics.pdf) [EN, Trinity]
 
 #### Probability and Statistics
 
 - [Pravděpodobnost a statistika 1](04/PAST-1.pdf) [CS]
-- Multivariate Linear Analysis - [Theory](05/Multivariate-linear-analysis/Multivariate-linear-analysis.pdf), [R notes](05/Multivariate-linear-analysis/) [EN]
+- Multivariate Linear Analysis - [Theory](05/Multivariate-linear-analysis/Multivariate-linear-analysis.pdf), [R notes](05/Multivariate-linear-analysis/) [EN, Trinity]
 
 #### Artificial Intelligence
 
