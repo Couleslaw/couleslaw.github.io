@@ -7,7 +7,7 @@ title: MFF Notes | Jakub Smolik
 
 - [CS] = written in Czech
 - [EN] = written in English
-- [Tex] = typed in LaTeX
+- [TeX] = typed in LaTeX
 - [Trinity] = taken during my Erasmus at Trinity College Dublin
 
 #### Linear Algebra & Analysis
@@ -22,7 +22,7 @@ title: MFF Notes | Jakub Smolik
 #### Discrete Mathematics & Logic
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
-- [Teorie množin](04/Teorie-mnozin.pdf) [CS, Tex]
+- [Teorie množin](04/Teorie-mnozin.pdf) [CS, TeX]
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
