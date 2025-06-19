@@ -40,7 +40,7 @@ Within this unified platform, **.NET Standard** played a crucial role as a speci
 
 The core relationship among these components is that the **.NET SDK** provides the development environment, allowing you to write code that targets a specific **.NET runtime**. This code is then compiled into **Common Intermediate Language (CIL)** by a language-specific **compiler** (like Roslyn for C\#). When executed, the chosen **runtime** (e.g., .NET 8\) takes this CIL and compiles it Just-in-Time (JIT) into native machine code for the **target platform**.
 
-### **1.1. .NET Runtimes Explained**
+## **1.1. .NET Runtimes Explained**
 
 The term ".NET Runtime" refers to the execution environment that manages the execution of .NET applications. Historically, there were two primary runtimes: **.NET Framework** and **.NET Core**. .NET Framework was Microsoft's original, proprietary implementation, tightly coupled to Windows. It included components like Windows Forms, WPF, and ASP.NET, making it ideal for desktop and web applications on Windows, but lacked cross-platform support.
 
@@ -57,7 +57,7 @@ The key differences between these runtimes boil down to their platform compatibi
 - **.NET 5+** is the unified, future-forward platform, merging the best of Framework and Core.
 - All new development should target **.NET 5+** for cross-platform support and modern features.
 
-### **1.2. .NET Standard: The Compatibility Bridge**
+## **1.2. .NET Standard: The Compatibility Bridge**
 
 **What is .NET Standard?** At its core, .NET Standard was not a runtime implementation, but rather a formal specification of .NET APIs that were intended to be available on _all_ .NET implementations. Think of it as a set of common contracts or a "base class library" that any .NET runtime (be it .NET Framework, .NET Core, or Mono) had to adhere to. It provided a unified set of APIs that developers could target when creating libraries, ensuring that those libraries could then be consumed by applications running on any compatible .NET runtime.
 
@@ -73,7 +73,7 @@ The key differences between these runtimes boil down to their platform compatibi
 - **Impact:** It acted as a crucial compatibility bridge during the transition from .NET Framework to .NET Core.
 - **Status:** It is no longer evolving due to the unification brought by .NET 5+, but existing netstandard libraries remain compatible.
 
-### **1.3. The .NET SDK and Tooling**
+## **1.3. The .NET SDK and Tooling**
 
 **What is the .NET SDK?** The .NET SDK (Software Development Kit) is the core toolkit for building .NET applications. It's a comprehensive set of tools, libraries, and runtime components that enable developers to create, compile, run, and deploy .NET projects. When you install the .NET SDK, you get everything you need for typical development workflows, without necessarily needing to install separate components like compilers or the CLI.
 
@@ -98,7 +98,7 @@ The distinction between the **role of the compiler vs. runtime** is crucial here
 
 When you create a .NET project, you explicitly **specify target frameworks** (TFMs) in your project file (e.g., \<TargetFramework\>net8.0\</TargetFramework\> or \<TargetFrameworks\>net8.0;net6.0\</TargetFrameworks\>). This TFM tells the compiler and the SDK which set of .NET APIs your project expects to use and which .NET runtime it intends to run on. This ensures that you only use APIs available on your target platform and that the resulting PE file is compatible with that environment.
 
-### **2.1. Understanding the Common Intermediate Language (CIL)**
+## **2.1. Understanding the Common Intermediate Language (CIL)**
 
 **What is CIL?** Common Intermediate Language (CIL), often simply called IL or MSIL, is a low-level, CPU-independent instruction set. It's an object-oriented assembly language that acts as an abstraction layer between the high-level programming languages (like C\#) and the underlying CPU's native machine code. When you compile a C\# project, the output isn't directly machine code, but rather CIL.
 
@@ -146,7 +146,7 @@ This CIL is then converted to architecture-specific assembly code by the JIT com
 - CIL is **stack-based** and carries rich **type metadata**, enforcing type safety.
 - **JIT compilers** optimize CIL into native machine code at runtime for specific architectures.
 
-### **2.2. The Role of the CLR: Execution and Just-in-Time Compilation**
+## **2.2. The Role of the CLR: Execution and Just-in-Time Compilation**
 
 **What is the CLR?** The Common Language Runtime (CLR) is the virtual machine component of .NET that manages the execution of .NET programs. It's the "runtime" part of the .NET ecosystem responsible for various services like Just-in-Time (JIT) compilation, memory management (Garbage Collection), type safety verification, exception handling, thread management, and security. It acts as an execution engine, translating the platform-agnostic CIL code into native machine code that the operating system can understand and execute.
 
@@ -165,7 +165,7 @@ This CIL is then converted to architecture-specific assembly code by the JIT com
 - **Metadata** is crucial for CLR's type safety and security checks.
 - While the CLR initializes with each app, **JIT compilation is a one-time cost per method per process**, with native code being cached.
 
-### **2.3. Ahead-of-Time (AOT) Compilation**
+## **2.3. Ahead-of-Time (AOT) Compilation**
 
 **What AOT is and how it differs from JIT:** Ahead-of-Time (AOT) compilation is a process where .NET CIL code is translated into native machine code _before_ the application is run, typically during the build or publish phase. This stands in stark contrast to Just-in-Time (JIT) compilation, which performs this translation at runtime, only when a method is first invoked. With AOT, the application ships as pre-compiled native code, meaning the JIT compiler is not needed at runtime, or only minimally for dynamic code generation.
 
@@ -192,7 +192,7 @@ This CIL is then converted to architecture-specific assembly code by the JIT com
 - **Trade-offs:** Faster startup/consistent performance, but reduced portability and variable size.
 - Ideal for **mobile, serverless, microservices, and command-line tools** where startup and footprint are critical.
 
-### **2.4. Dependencies and Deployment**
+## **2.4. Dependencies and Deployment**
 
 Understanding how .NET applications are deployed and what dependencies they carry is crucial for reliable distribution. The central question often revolves around the .NET runtime itself.  
 **Do users need the .NET runtime installed?** This depends entirely on the chosen deployment model. There are two primary models in modern .NET: **framework-dependent deployment** and **self-contained deployment**. If you choose a framework-dependent deployment, yes, the user _must_ have the target .NET runtime installed on their machine. If the correct runtime version isn't present, the application will fail to launch or prompt the user to install it. This model results in smaller application packages but introduces an external dependency.
@@ -224,13 +224,13 @@ One of the most powerful features of .NET is its robust support for multiple pro
 
 While **C\#** is undeniably the primary and most widely used language in the .NET ecosystem, it is by no means the only one. Microsoft actively supports **F\#** (a functional-first language) and **VB.NET** (Visual Basic .NET). Historically, Microsoft also explored other language integrations, such as **Managed C++** and even **.NET for Java** (which allowed Java code to run on the CLR, though this effort was discontinued). The underlying principle is that any language capable of generating valid CIL and respecting the fundamental rules of the Common Type System can operate within the .NET environment, fully leveraging its features and interoperating with code written in other .NET languages.
 
-### **3.1. Compiler Requirements**
+## **3.1. Compiler Requirements**
 
 For a language to be a first-class citizen in the .NET ecosystem, its compiler must meet specific requirements to ensure compatibility and interoperability. The most critical requirement is **CIL generation**. The compiler's primary output must be valid CIL bytecode, encapsulated within a Portable Executable (PE) file, along with comprehensive metadata. This CIL must conform to the instruction set and type system rules understood by the Common Language Runtime (CLR). This ensures that irrespective of the source language, the executable output is digestible by the unified runtime.
 
 Beyond CIL generation, **other compilers for the language** might exist to target different environments (e.g., compiling to native code without JIT, or targeting WebAssembly via Blazor WebAssembly). However, for a language to be part of the core .NET managed ecosystem, its compiler must integrate deeply with the .NET SDK and MSBuild system. This includes emitting appropriate debugging information, resource embedding, and potentially integrating with language services for IDE support. The ability to correctly consume and produce .NET types and assemblies is paramount, requiring sophisticated type system mapping and adherence to common conventions.
 
-### **3.2. The Common Type System (CTS)**
+## **3.2. The Common Type System (CTS)**
 
 **What the CTS specifies:** The Common Type System (CTS) is a formal specification that defines how types are declared, used, and managed in the Common Language Runtime (CLR). It defines a rich set of data types, including classes, interfaces, structs, enumerations, delegates, and arrays, along with the rules for their visibility, member access, inheritance, and polymorphism. The CTS is foundational to .NET's language interoperability, providing a shared understanding of types across all .NET languages.
 
@@ -253,7 +253,7 @@ Beyond CIL generation, **other compilers for the language** might exist to targe
 - Each .NET language **maps its native types to CTS types** (e.g., C\# int → System.Int32).
 - The CTS is fundamental to enabling **multi-language support** within .NET.
 
-### **3.3. The Common Language Specification (CLS)**
+## **3.3. The Common Language Specification (CLS)**
 
 **Purpose and design:** While the Common Type System (CTS) defines _how_ types are represented in the CLR, the Common Language Specification (CLS) specifies a set of rules and guidelines that languages and library authors must adhere to if they want their code to be easily consumable by _all_ other CLS-compliant .NET languages. Its primary purpose is to ensure the broadest possible interoperability and ease of use across the .NET ecosystem. The CLS is essentially a subset of the CTS, defining the features that are guaranteed to be supported by all CLS-compliant languages.
 
@@ -280,7 +280,7 @@ Having explored how .NET supports multiple languages and how compilation works, 
 
 This section will delve into the core offerings that differentiate .NET as a managed platform. We'll examine how the Common Language Runtime (CLR) liberates developers from manual memory management through its sophisticated Garbage Collection, enabling more robust and secure applications. Furthermore, we'll discuss the essential mechanisms for interoperating with code outside the managed environment (unmanaged code) when necessary, and explore how NuGet seamlessly integrates and delivers the vast ecosystem of libraries and tools that extend .NET's capabilities. These features collectively contribute to the productivity, reliability, and extensibility that define the modern .NET development experience.
 
-### **4.1. Managed vs. Unmanaged Code**
+## **4.1. Managed vs. Unmanaged Code**
 
 **Definition of managed code:** In the .NET ecosystem, **managed code** refers to code whose execution is managed by the Common Language Runtime (CLR). This means the CLR handles various aspects of the code's lifecycle, including memory allocation and deallocation (via Garbage Collection), type safety verification, exception handling, and security. Managed code benefits from the CLR's services, leading to greater stability, fewer memory leaks, and enhanced security without requiring manual memory management. All C\#, F\#, and VB.NET code you write is typically compiled into CIL, which is then managed by the CLR.
 
@@ -302,7 +302,7 @@ Developers must exercise extreme caution and diligence when using P/Invoke, ensu
 - **P/Invoke** is the mechanism for managed code to call unmanaged functions.
 - Using P/Invoke incurs **risks** related to manual memory management, type marshaling, and reduced security/portability.
 
-### **4.2. Memory Management and Garbage Collection**
+## **4.2. Memory Management and Garbage Collection**
 
 **How the CLR handles memory:** One of the most significant benefits of managed code is automatic memory management, primarily handled by the **Garbage Collector (GC)**, which is part of the CLR. Instead of manual memory allocation and deallocation (like malloc/free in C++), developers simply create objects, and the CLR's GC automatically reclaims the memory occupied by objects that are no longer reachable or used by the application. This significantly reduces the complexity of memory management and virtually eliminates common errors like memory leaks and dangling pointers, making development faster and applications more stable.
 
@@ -332,7 +332,7 @@ The GC prioritizes collecting Gen 0, then Gen 1, and only rarely performs a full
 - Developers can **optimize GC behavior** by reducing allocations, using value types, and managing unmanaged resources deterministically.
 - GC offers **significant productivity and reliability benefits** over manual memory management in unmanaged environments.
 
-### **4.3. NuGet and the .NET Ecosystem**
+## **4.3. NuGet and the .NET Ecosystem**
 
 **What NuGet is:** NuGet is the package manager for .NET. It's an essential tool that simplifies the process of incorporating third-party libraries, frameworks, and tools into .NET projects. Much like npm for Node.js or Maven for Java, NuGet provides a centralized repository (nuget.org) and a set of tools (CLI, Visual Studio integration) to find, install, update, and manage software packages (NuGet packages or "nupkgs") for .NET applications.
 
@@ -525,8 +525,8 @@ dotnet new nunit -n MyNUnitTests -o MyNUnitTests
 cd MyNUnitTests
 
 # Or create an MSTest test project
-# dotnet new mstest -n MyMSTestTests -o MyMSTestTests
-# cd MyMSTestTests
+dotnet new mstest -n MyMSTestTests -o MyMSTestTests
+cd MyMSTestTests
 
 # Navigate to your test project directory (if not already there) and run tests
 dotnet test
