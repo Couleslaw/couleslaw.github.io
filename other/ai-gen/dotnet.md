@@ -1,3 +1,12 @@
+---
+layout: default
+title: .NET Ecosystem Explained | Jakub Smolik
+---
+
+<a href="index">..</a>
+
+This article was generated using Gemini.
+
 [view as PDF document instead](dotnet.pdf)
 
 # **.NET Ecosystem Explained**
