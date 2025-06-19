@@ -1,4 +1,4 @@
-[download as PDF](dotnet.pdf)
+[view as PDF document instead](dotnet.pdf)
 
 # **.NET Ecosystem Explained**
 
