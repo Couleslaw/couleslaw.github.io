@@ -43,4 +43,4 @@ You can contact me at `smolikj (at) matfyz.cz`
   - I have first learned about this fascinating topic from the excellent [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) by Graham, Knuth and Patashnik.
 - [Pacman](https://github.com/Couleslaw/Pac-man)
   - The original Pacman game implemented in Unity.
-  - My main reference for game mechanics was [The Pac-Man Dossier].(https://pacman.holenet.info/)
+  - My main reference for game mechanics was [The Pac-Man Dossier](https://pacman.holenet.info/).
