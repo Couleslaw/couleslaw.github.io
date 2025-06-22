@@ -5,7 +5,7 @@ title: Python Under the Hood | Jakub Smolik
 
 <a href="index">..</a>
 
-This article was generated using Gemini and ChatGTP.
+This article was generated using Gemini and ChatGTP (free versions).
 
 [view as PDF document instead](python.pdf)
 
@@ -2011,6 +2011,8 @@ For optimal reliability and performance, a balanced approach is usually best. Us
 - **Runtime vs. Static Type Checks**: Static checks (via type hints and tools like Mypy) catch errors early during development with no runtime overhead. Runtime checks (via `isinstance()`) guarantee behavior during execution but incur some cost and delay error discovery. A combination of both offers the most robust solution.
 
 ## 8. Type Annotations: History, Tools, and Best Practices
+
+Type annotations in Python have become a cornerstone of modern development, enabling static type checking, improving code readability, and enhancing developer productivity. They allow developers to specify expected types for variables, function parameters, and return values, which can be checked by static analysis tools like Mypy or Pyright. This section delves into the history of type annotations in Python, their basic syntax and usage, and best practices for leveraging them effectively in your codebase.
 
 ## 8.1. History of Type Annotations in Python
 
