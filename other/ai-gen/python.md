@@ -22,7 +22,6 @@ This material is for you if you're comfortable writing Python applications, unde
 #### What you will learn
 
 Upon completing this guide, you will possess a robust mental model of the Python execution pipeline, from source code to machine interaction. You will understand memory management, the intricacies of the Global Interpreter Lock (GIL), the object model, and the type system. This knowledge will empower you to write more performant code, debug with greater precision, and leverage advanced language features with confidence. You'll learn best practices rooted not in convention alone, but in the fundamental truths of how Python operates.
-Introduction
 
 ## Table of Contents
 
