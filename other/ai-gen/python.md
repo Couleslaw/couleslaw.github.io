@@ -5,7 +5,7 @@ title: Python Under the Hood | Jakub Smolik
 
 <a href="index">..</a>
 
-This article was generated using Gemini and ChatGTP (free versions).
+This article was [generated](./prompts/python.md) using Gemini and ChatGTP (free versions).
 
 [view as PDF document instead](python.pdf)
 
@@ -3318,7 +3318,9 @@ The reference counting mechanism, while efficient, imposes a strict ownership mo
 
 A weak reference to an object does not increment its `ob_refcnt`. This means that if an object is only referenced by weak references, and its strong reference count drops to zero, it becomes eligible for garbage collection. When the object is collected, any weak references pointing to it are automatically set to `None` or become "dead" (they will return `None` when dereferenced). This allows you to build data structures where objects can be "observed" or "linked" without creating memory leaks.
 
-Python provides the `weakref` module to work with weak references. The most common weak reference types are `weakref.ref` for individual objects and `weakref.proxy` for proxy objects that behave like the original but raise an `ReferenceError` if the original object is collected. You can also use `weakref.WeakKeyDictionary` and `weakref.WeakValueDictionary`, which are specialized dictionaries that hold weak references to their keys or values, respectively. This makes them ideal for caches where you want entries to be automatically removed if the cached object is no longer referenced elsewhere.
+Python provides the `weakref` module to work with weak references. The most common weak reference types are `weakref.ref()` for individual objects and `weakref.proxy()` for proxy objects that behave like the original but raise an `ReferenceError` if the original object is collected. You can also use `weakref.WeakKeyDictionary` and `weakref.WeakValueDictionary`, which are specialized dictionaries that hold weak references to their keys or values, respectively. This makes them ideal for caches where you want entries to be automatically removed if the cached object is no longer referenced elsewhere.
+
+For instances of standard user-defined classes (i.e., those not using `__slots__`), CPython's memory layout includes a dedicated, internal slot for **`__weakref__`** management. This is not an entry in the instance's `__dict__`, but rather a specific pointer or offset within the underlying C structure of the `PyObject` itself, typically named `tp_weaklistoffset` in the `PyTypeObject` that defines the class. This internal slot serves as the anchor point for all weak references pointing to a particular object instance. When you create a weak reference (e.g., `weakref.ref(obj)`), the `weakref` machinery registers this weak reference with the object via this internal slot. This registration allows Python to efficiently iterate through and "clear" (set to `None`) all associated weak references immediately before the object is deallocated. It ensures that once an object is gone, any weak pointers to it become invalid.
 
 ```python
 import weakref
@@ -3332,21 +3334,27 @@ class MyObject:
     def __str__(self) -> str:
         return f"MyObject({self.name})"
 
-obj = MyObject("Strong")         # Strong reference
-weak_obj_ref = weakref.ref(obj)  # Weak reference to obj
+obj = MyObject("Strong")
+weak_obj_ref = weakref.ref(obj)
 
+# You can access the __weakref__ slot, though it's typically an internal detail
+# It will be a weakref.ReferenceType object or None if no weakrefs exist
+print(f"__weakref__ attribute before del: {type(obj.__weakref__)}")
 print(f"Dereferencing weak_obj_ref: {weak_obj_ref()}")
 del obj
 print(f"Dereferencing weak_obj_ref after del: {weak_obj_ref()}")
 
 # Output:
 # MyObject Strong created
+# __weakref__ attribute before del: <class 'weakref.ReferenceType'>
 # Dereferencing weak_obj_ref: MyObject(Strong)
 # MyObject Strong deleted
 # Dereferencing weak_obj_ref after del: None
 ```
 
-The `weakref` module is an indispensable tool for advanced memory management patterns. It allows developers to break undesired strong reference cycles, implement efficient caches (like memoization or object pools) that don't indefinitely hold onto memory, and design flexible event systems where listeners don't prevent the objects they're observing from being collected. By understanding and utilizing weak references, you can write more robust and memory-efficient Python applications, especially those dealing with long-running processes or large numbers of objects.
+In contrast to standard classes, instances of classes that explicitly define `__slots__` do **not** have the `__weakref__` attribute by default. The core purpose of `__slots__` is to achieve greater memory efficiency and faster attribute access by creating a fixed, compact memory layout for instances, _without_ the overhead of a dynamic `__dict__`. When `__slots__` are used, Python only allocates memory for the attributes explicitly listed in the `__slots__` tuple. Since the `__weakref__` slot is an optional feature for object instances, it is _not_ included in this minimalist layout unless you specifically request it. If you define `__slots__` in a class and still need its instances to be targetable by weak references, you must explicitly include `'__weakref__'` as one of the entries in the `__slots__` tuple. This tells Python to reserve the necessary space in the instance's fixed memory layout for managing weak references, thus allowing `weakref.ref()` to target instances of that slotted class.
+
+The `weakref` module is an indispensable tool for advanced memory management patterns. It allows developers to break undesired strong reference cycles, implement efficient caches (like memoization or object pools) that don't indefinitely hold onto memory, and design flexible event systems where listeners don't prevent the objects they're observing from being collected. By understanding how the `__weakref__` attribute ties into the memory layout and the implications for slotted classes, you can write more robust and memory-efficient Python applications, especially those dealing with long-running processes or large numbers of objects where precise memory control is paramount.
 
 ## 11.5. Tracking and Inspecting Memory Usage: `gc`, `tracemalloc`
 
