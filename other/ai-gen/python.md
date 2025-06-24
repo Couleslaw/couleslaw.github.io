@@ -37,7 +37,7 @@ Upon completing this guide, you will possess a robust mental model of the Python
    - [Interpreted vs Compiled](#21-is-python-interpreted-or-compiled) - Clarifies the often‑misunderstood distinction between interpreted and compiled languages and explains Python’s hybrid approach: source → AST → bytecode → execution.
    - [Bytecode](#22-understanding-python-bytecode-pyc-files) - Delves into the structure and format of `.pyc` files, illustrating how Python transforms your code into a stream of low‑level instructions. Explains versioned magic numbers, timestamp checks, and the role of the bytecode cache in speeding up subsequent imports.
    - [Python Virtual Machine](#23-the-python-virtual-machine-pvm) - Describes the PVM’s eval loop, including how it fetches, decodes, and executes bytecode instructions.
-   - [Object Mode](#24-pythons-object-model-everything-is-an-object) - Explains Python’s object model, where everything is an object, including functions, classes and modules. Discusses the implications of this design choice for memory management, polymorphism, and dynamic typing.
+   - [Object Model](#24-pythons-object-model-everything-is-an-object) - Explains Python’s object model, where everything is an object, including functions, classes and modules. Discusses the implications of this design choice for memory management, polymorphism, and dynamic typing.
    - [Memory Management](#25-memory-management-reference-counting-and-the-gc) - Covers the basis of Python’s memory management strategies ─ reference counting and the generational garbage collector.
 
 3. [Variables, Scope, and Namespaces](#3-variables-scope-and-namespaces)
@@ -140,7 +140,7 @@ Upon completing this guide, you will possess a robust mental model of the Python
 
 14. [Logging, Debugging and Introspection](#14-logging-debugging-and-introspection)
 
-    - [The `logging` Module](#141-the-logging-module-a-high-level-debugging-essential) - Introduces the `logging` module as a high‑level debugging tool, explaining how it provides a flexible framework for emitting diagnostic messages with varying severity levels, destinations, and formats. Reject `print()` return to logging.
+    - [The Logging Module](#141-the-logging-module-a-high-level-debugging-essential) - Introduces the `logging` module as a high‑level debugging tool, explaining how it provides a flexible framework for emitting diagnostic messages with varying severity levels, destinations, and formats. Reject `print()` return to logging.
     - [inspect Module](#142-the-inspect-module-source-signatures-and-live-objects) - Shows how to retrieve source code, signature objects, and live object attributes for runtime analysis and tooling.
     - [Frame Introspection](#143-frame-introspection-accessing-and-modifying-stack-frames) - Explains accessing and modifying call stack frames via `sys._getframe()` and frame attributes for advanced debugging.
     - [Trace/Profile Hooks](#144-trace-and-profile-hooks-syssettrace-syssetprofile) - Describes how to attach tracing functions with `sys.settrace()` and profiling callbacks with `sys.setprofile()` for line‑level instrumentation.
