@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: AI-generated Learning Materials | Jakub Smolik
 ---
 
