@@ -1,21 +1,28 @@
 ---
 layout: default
-title: Prompt C# Language Deep Dive | Jakub Smolik
+title: C# Mastery Guide Prompt | Jakub Smolik
 ---
 
-[..](../csharp)
+[..](./index.md)
+
+## C# Mastery Guide Prompts
 
 ## Designing the Table of Contents (Gemini)
 
-- let Gemini analyze the [python guide](../python) and suggest a comprehensive table of contents for a C# deep dive guide.
-- long conversation with Gemini to refine the table of contents, ensuring it covers all essential aspects of C# and .NET.
+- first I had Gemini analyze the [python guide](../python-guide/) and suggest a comprehensive table of contents for a C# deep dive guide.
+- then long conversation with Gemini to refine the table of contents, ensuring it covers all essential aspects of C# and .NET.
 - when giving feedback:
   - first state suggestions in a bullet list, followed by:
-  - Analyze these suggestions, giving detailed explanations of your thought process and their pros and cons. If you decide to include a suggestion, decide and explain how you will adjust the current table of contents to best accommodate it. Output: analysis on which changes you have incorporated and how exactly you have done that, followed by the new table of contents.
-- after major changes to the table of contents, ask Gemini to analyze it again and suggest further improvements using the following prompt:
+  ```markdown
+  Analyze these suggestions, giving detailed explanations of your thought process and their pros and cons.
+  If you decide to include a suggestion, decide and explain how you will adjust the current table of contents to best accommodate it.
+  Output: analysis on which changes you have incorporated and how exactly you have done that, followed by the new table of contents.
+  ```
+- after major changes to the table of contents, I asked Gemini to analyze it again and suggest further improvements using the following prompt:
 
-#### Refine The Table of Contents Prompt
+### Refine The Table of Contents Prompt
 
+```markdown
 Act as an expert in C# and the .NET ecosystem with decades of experience writing production-grade software, designing complex systems, and teaching advanced C# concepts to professional developers. You have deep knowledge of modern C# features introduced in versions such as C# 12 and C# 13, and you understand how to communicate nuanced language features in a logically structured and pedagogically sound manner.
 
 Your task is to critically analyze the table of contents you have created. Your objective is to ensure that all essential advanced features of modern C# are appropriately covered, grouped logically into cohesive chapters, and ordered in the most effective pedagogical sequence. You must:
@@ -51,16 +58,22 @@ Final Output: Improved Table of Contents
 Optional Reflection
 
 - Self-assess your revised version: is it more coherent, comprehensive, and suitable for an advanced audience? Explain briefly.
+```
 
 ## New Chat with Gemini to Finalize the Table of Contents
 
 - very similar prompt as last time, but new chat = clear slate and less bias from previous conversations.
 - further improvements to the ToC
 - Asking to improve chapter annotations:
-  - You have overall shirinked all topic annotations. In some cases this is OK, but in general it removes information about what the chapter covers. For example, the subchapter about variance included common examples (`IEnumerable<out T>` and `IComparer<in T>`). Please add topic anotations - brief, to the point, but packed with information - to each subchapter which misses a proper annotation.
+  ```markdown
+  You have overall shirinked all topic annotations. In some cases this is OK, but in general it removes information about what the chapter covers.
+  For example, the subchapter about variance included common examples (`IEnumerable<out T>` and `IComparer<in T>`).
+  Please add topic anotations - brief, to the point, but packed with information - to each subchapter which misses a proper annotation.
+  ```
 
 ## Prompt for ChatGTP to Write the Prompt for Gemini
 
+``````markdown
 You are an expert prompt engineer. Your task is to deeply understand what I want, and in return respond with a well crafted prompt that, if fed to a separate AI, will get me exactly the result I want.
 
 The prompt follows this rough outline, and makes sure to include each part as needed:
@@ -115,9 +128,11 @@ chapter text
 Start by analyzing and listing your thought about the introduction and table of contents:
 
 _Introduction and the simplified table of contents_
+``````
 
 ## Prompt for Gemini to Actually Write the Chapters
 
+``````markdown
 **Act as an expert in C# and the .NET ecosystem**, with decades of experience writing production-grade software, designing complex systems, and teaching advanced C# concepts to professional developers. You are deeply familiar with modern language features (including those introduced in C# 12 and 13), low-level runtime behavior, and compiler interactions. You have a deep pedagogical understanding of how to clearly explain technical material to experienced practitioners.
 
 ---
@@ -467,9 +482,11 @@ To begin, analyze the entire table of contents and respond with:
 - **A.3. Further Reading**
 - **A.4. Essential .NET Libraries for Advanced Development (Brief Overview)**
 - **A.5. Modern C# Features by Version**
+``````
 
 ## Prompt for Gemini Before Writing Each Chapter
 
+``````markdown
 Act as an expert in C# and the .NET ecosystem with decades of experience writing production-grade software and teaching advanced C# concepts. You have deep knowledge of modern C# features, including those from versions 11–13, and can clearly explain complex language internals and design trade-offs.
 
 Your task is to write a specific chapter of an expert-level guide to deeply understanding C#. Each chapter is defined in the provided table of contents and should be written in exhaustive detail, as if it were a standalone technical chapter from a professional book.
@@ -508,7 +525,8 @@ using the quadruple backticks to ensure proper formatting.
 ---
 
 **Input:**
-Write chapter:
+Write chapter: [specific chapter from the following full table of contents]
+``````
 
 ## Final Full Table of Contents
 
@@ -785,8 +803,6 @@ Write chapter:
 - **27.6. Lifetime Management Nuances and Pitfalls:** In-depth discussion of common issues arising from incorrect lifetime management (e.g., singleton services consuming scoped dependencies), strategies for avoiding them, and considerations for asynchronous service resolution.
 - **27.7. Testing with Dependency Injection:** Demonstrating how DI inherently facilitates writing highly testable C# code, including techniques for mocking and stubbing dependencies in unit and integration testing contexts.
 - **27.8. Under the Hood of DI Containers (Briefly):** A high-level overview of the internal mechanisms DI containers employ for performance and flexibility, such as reflection, expression trees, or source generators, connecting back to metaprogramming concepts.
-
----
 
 ### Appendix
 

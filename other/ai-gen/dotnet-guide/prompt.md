@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Prompt for .NET Ecosystem Explained | Jakub Smolik
+title: .NET Ecosystem Explained Prompt | Jakub Smolik
 ---
 
-[..](../dotnet.md)
+[..](./index.md)
+
+# .NET Ecosystem Explained Prompts
 
 ## First a Conversation with ChatGTP
 
+```markdown
 Act as a senior .NET ecosystem expert with deep knowledge of the evolution, architecture, and use cases of all major .NET technologies, including .NET Framework, .NET Core, .NET Standard, and the .NET SDK. You are writing for an audience of intermediate to advanced developers who are familiar with programming in .NET, but may not fully understand the distinctions and historical transitions between these terms.
 
 **Task:**
@@ -45,9 +48,11 @@ Many developers, especially those entering the modern .NET ecosystem, are confus
 ## At the end of ChatGTP conversation
 
 - I would like to compile this entire conversation we had into a single PDF file. But first I would like you to suggest a table of contents of the PDF, so that the topics nutally flow one into the other (are discussed in logical order) and everything we touched on is explained
+```
 
 ## Asking ChatGTP to create a prompt for Gemini
 
+```markdown
 You are an expert prompt engineer. Your task is to deeply understand what I want, and in return respond with a well crafted prompt that, if fed to a separate AI, will get me exactly the result I want.
 
 The prompt follows this rough outline, and makes sure to include each part as needed:
@@ -72,9 +77,11 @@ Please craft the perfect prompt for my request below
 Write a .NET guide. Suggested table of contents:
 
 (table of contents is the same as in the next section)
+```
 
 ## Prompt for Gemini
 
+```markdown
 Act as an expert in the design and delivery of technical guides for intermediate to advanced .NET developers.
 
 Task:
@@ -310,3 +317,4 @@ Table of Contents to Implement:
 - Key links to official docs
 
 - Tooling tips (ILSpy, DocFX, crossgen, NativeAOT etc.)
+```
