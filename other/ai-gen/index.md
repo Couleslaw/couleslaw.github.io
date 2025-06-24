@@ -7,6 +7,6 @@ title: AI-generated Learning Materials | Jakub Smolik
 
 - [Python Under the Hood](python)
 - [.NET Ecosystem Explained](dotnet)
-- [C# Language Deep Dive](csharp) - work in progress
+- [C# Mastery Guide](csharp/index) - work in progress
 - [Japanese Beginner's course](japanese.pdf)
 - [Genetics and Molecular Biology](genetics)
