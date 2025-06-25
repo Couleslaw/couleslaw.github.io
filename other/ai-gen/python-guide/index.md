@@ -66,8 +66,8 @@ Upon completing this guide, you will possess a robust mental model of the Python
 
 - 4.1. Module Resolution
 - 4.2. Specific Object Imports
-- 4.3. Absolute vs. Relative Imports and Packages
-- 4.4. Circular Imports and Reloading
+- 4.3. Absolute vs. Relative Imports & Packages
+- 4.4. Circular Imports & Module Reloading
 - 4.5. Advanced Import Mechanisms
 
 #### [5. Functions and Callables](./part2.md#5-functions-and-callables-1)
