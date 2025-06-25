@@ -197,7 +197,7 @@ $$
 (2^{30}-1)^{2^{63}-1} \approx 2^{30 \cdot 2^{63}} \approx 2^{2^{68}} \approx 10^{88848372616373700000}
 $$
 
-The number of digis of this number in base 10 is about $10^{20}$ and we would need about 130000 petabytes of memory to store it.
+The number of digits of this number in base 10 is about $10^{20}$ and we would need about 130 milion terabytes of memory to store it.
 
 **Mental Diagram: `int` object layout**
 
