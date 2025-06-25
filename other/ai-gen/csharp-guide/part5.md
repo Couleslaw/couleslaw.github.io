@@ -45,7 +45,7 @@ Part V of the C# Mastery Guide focuses on advanced concurrency, performance opti
 
 - **23.1. Essential Debugging Features in Visual Studio:** Setting breakpoints (basic, conditional, hit count), stepping through code (Step Over, Step Into, Step Out), inspecting variables (Autos, Locals, Watch windows), and the Call Stack window.
 - **23.2. Advanced Debugging Techniques:** Debugging multi-threaded applications (Parallel Stacks, Threads window), memory profiling, diagnostic tools, and creating custom visualizers.
-- **23.3. Code Testing Fundamentals and Best Practices:** Covering different types of testing (unit, integration), core principles for writing effective C# tests, an overview of popular frameworks (`NUnit`, `xUnit.net`, `MSTest`), the use of test doubles (mocks, stubs), and integrating testing into CI/CD.
+- **23.3. Code Testing Fundamentals and Best Practices:** Covering different types of testing (unit, integration, end-to-end), core principles for writing effective C# tests, an overview of popular frameworks (`NUnit`, `xUnit.net`, `MSTest`), the use of test doubles (mocks, stubs), and integrating testing into CI/CD.
 - **23.4. Production Diagnostics with `dotnet-dump`, `dotnet-counters`, and `dotnet-trace`:** Analyzing memory dumps, monitoring performance counters, and capturing execution traces in production environments.
 - **23.5. The Power of WinDbg and SOS:** Using the Son of Strike (SOS) extension within WinDbg to inspect the CLR state in a crashed process and understand intricate memory layouts.
 - **23.6. Structured Logging:** Leveraging `Microsoft.Extensions.Logging` for effective, machine-readable, and queryable logs, and integration with popular logging frameworks like Serilog/NLog.

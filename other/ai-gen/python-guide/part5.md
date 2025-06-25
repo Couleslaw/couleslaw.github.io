@@ -31,7 +31,7 @@ Part V of this guide delves into advanced topics that are crucial for writing ef
 #### [15. Logging, Debugging and Introspection](#15-logging-debugging-and-introspection-1)
 
 - **[15.1. Logging Done Properly: `logging`](#151-logging-done-properly-loging)** - Introduces the `logging` module as a high‑level debugging tool, explaining how it provides a flexible framework for emitting diagnostic messages with varying severity levels, destinations, and formats. Reject `print()` return to logging.
-- **[15.2. Runtime Object Introspection: `inspect`](#152-runtime-object-introspection-inspect)** - Shows how to retrieve source code, signature objects, and live object attributes for runtime analysis and tooling.
+- **[15.2. Runtime Object Introspection: `dir()`, `inspect`](#152-runtime-object-introspection-dir-inspect)** - Shows how to retrieve source code, signature objects, and live object attributes for runtime analysis and tooling.
 - **[15.3. Runtime Stack Frame Introspection](#153-runtime-stack-frame-introspection)** - Explains accessing and modifying call stack frames via `sys._getframe()` and frame attributes for advanced debugging.
 - **[15.3. Interpreter Profiling Hooks](#154-interpreter-profiling-hooks)** - Describes how to attach tracing functions with `sys.settrace()` and profiling callbacks with `sys.setprofile()` for line‑level instrumentation.
 - **[15.4. C‑Level Debugging](#155-c-level-debugging)** - Introduces using GDB or LLDB to step through CPython’s C source, leveraging debug builds and Python symbols.
@@ -910,7 +910,64 @@ To fully leverage the `logging` module, adopt these best practices, especially w
 7.  **Performance Considerations**: While `logging` is efficient, excessive `DEBUG`-level logging in performance-critical loops can add overhead. Be mindful of log levels in hot paths. Remember that string formatting only happens if the message passes the level check.
 8.  **Graceful Shutdown**: Ensure that all custom handlers are properly closed on application shutdown to prevent data loss, especially for file-based handlers. The `atexit` module can be used to register a function to call `logging.shutdown()` for this purpose, though `dictConfig` handles this implicitly.
 
-## 15.2. Runtime Object Introspection: `inspect`
+## 15.2. Runtime Object Introspection: `dir()`, `inspect`
+
+Python's dynamic nature allows for powerful introspection capabilities, enabling developers to examine and manipulate live objects at runtime. This is particularly useful for debugging, testing, and building advanced frameworks or libraries. The built-in `dir()` function and the `inspect` module are two primary tools for introspection in Python.
+
+### The Built-in `dir()` Function
+
+The `dir()` function is a simple yet powerful introspection tool that returns a sorted list of names in the current local scope or the attributes of an object. When called without arguments, it lists the names in the current local scope. When called with an object, it returns the object's attributes, including methods, properties, and special attributes (those starting with double underscores).
+
+```python
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+    def my_method(self):
+        return self.value * 2
+
+# Using dir() to inspect MyClass
+print("Attributes of MyClass:")
+print(dir(MyClass))
+print("\nAttributes of an instance of MyClass:")
+instance = MyClass(10)
+print(dir(instance))
+
+# Using dir() in a function
+def my_function(x, y):
+    m = x * y
+    print("\nCalling dir() inside of of my_function:")
+    print(dir())
+    return m
+
+print("\nAttributes of my_function:")
+print(dir(my_function))
+my_function(5, 3)
+
+# Using dir() on a built-in type
+print("\nAttributes of the built-in list type:")
+print(dir(list))
+```
+
+Executing this code will produce output similar to:
+
+```
+Attributes of MyClass:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__firstlineno__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__static_attributes__', '__str__', '__subclasshook__', '__weakref__', 'my_method']
+
+Attributes of an instance of MyClass:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__firstlineno__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__static_attributes__', '__str__', '__subclasshook__', '__weakref__', 'my_method', 'value']
+
+Attributes of my_function:
+['__annotations__', '__builtins__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__getstate__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__type_params__']
+
+Calling dir() inside of of my_function:
+['m', 'x', 'y']
+
+Attributes of the built-in list type:
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+```
+
+### The `inspect` Module
 
 The `inspect` module is Python's primary tool for runtime introspection of live objects. It provides functions to examine code, classes, functions, methods, traceback objects, frame objects, and even generator objects. For an expert debugger, `inspect` is invaluable for understanding the state and definition of code dynamically, without needing to know it ahead of time. It allows you to programmatically access metadata about your running program.
 

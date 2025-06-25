@@ -169,7 +169,7 @@ Upon completing this guide, you will possess a robust mental model of the Python
 #### [15. Logging, Debugging and Introspection](./part5.md#15-logging-debugging-and-introspection-1)
 
 - 15.1. Logging Done Properly: `logging`
-- 15.2. Runtime Object Introspection: `inspect`
+- 15.2. Runtime Object Introspection: `dir()`, `inspect`
 - 15.3. Runtime Stack Frame Introspection
 - 15.3. Interpreter Profiling Hooks
 - 15.4. C‑Level Debugging
