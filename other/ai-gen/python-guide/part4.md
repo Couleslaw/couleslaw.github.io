@@ -1113,4 +1113,4 @@ The `gc` module also offers `gc.get_objects()` and `gc.get_referrers()`, which c
 - **[Part III: Advanced Type System and Modern Design](./part3.md):** Mastering abstract base classes, protocols, type annotations, and advanced annotation techniques that enhance code reliability and maintainability.
 - **[Part V: Performance, Concurrency, and Debugging](./part5.md):** Examining concurrency models, performance optimization techniques, and debugging strategies that help you write efficient and robust code.
 - **[Part VI: Building, Deploying, and The Developer Ecosystem](./part6.md):** Covering packaging, dependency management, production deployment, and the essential tools and libraries that every Python developer should know.
-- **[Summary and Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.
+- **[Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.

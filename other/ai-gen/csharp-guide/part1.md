@@ -50,7 +50,7 @@ As the software world shifted towards cloud-native applications, microservices, 
 - **Open-Source:** Developed openly on GitHub.
 - **Cross-Platform:** Designed to run on Windows, Linux, and macOS.
 - **Modular:** A smaller, more granular set of components, allowing developers to include only what they need.
-- **Performance:** Built with performance as a first-class citizen, often outperforming the .NET Framework.
+- **Performance:** Built with performance as a goal, often outperforming the .NET Framework.
 - **Command-Line Interface (CLI):** A powerful `dotnet` CLI for development, build, and deployment.
 
 **The Unified .NET (2020 - Present):**
@@ -60,7 +60,7 @@ Starting with **.NET 5** in November 2020, Microsoft embarked on a mission to un
 - A **single codebase** for building all types of applications (web, desktop, mobile, cloud, IoT, AI).
 - A **consistent developer experience** across all platforms.
 
-Subsequent releases, such as **.NET 6**, **.NET 7**, **.NET 8**, and the upcoming **.NET 9**, continue this vision, bringing further performance improvements, new language features in C# (e.g., C# 11, C# 12, C# 13), and expanded capabilities.
+Subsequent releases, such as **.NET 6**, **.NET 7**, **.NET 8**, **.NET 9** and the upcoming **.NET 10**, continue this vision, bringing further performance improvements, new language features in C# (e.g., C# 11, C# 12, C# 13), and expanded capabilities.
 
 This journey from a Windows-only, monolithic framework to a modular, open-source, cross-platform, and unified ecosystem demonstrates .NET's commitment to modern software development needs.
 
@@ -115,7 +115,7 @@ Instead of producing IL that is JIT-compiled at runtime, NativeAOT compiles the 
 
 **Debate Simulation: Which Runtime to Choose?**
 
-- **Developer A (Advocating JIT for general purpose):** "For most line-of-business applications, web APIs, or desktop apps, the CLR's JIT compilation offers the best balance. You get faster iteration times, and the JIT can perform highly sophisticated optimizations at runtime based on actual usage patterns, which can lead to better sustained throughput for long-running processes. The 'cost' of JIT startup is often negligible in these scenarios, and the smaller deployment size of the IL (requiring a runtime) is usually fine."
+- **Developer A (Advocating JIT for general purpose):** "For most line-of-business applications, web APIs, or desktop apps, the CLR's JIT compilation offers the best balance. You get faster iteration times, and the JIT can perform highly sophisticated optimizations at runtime based on actual usage patterns, which can lead to better sustained throughput for long-running processes. The 'cost' of JIT startup is often negligible in these scenarios, and the larger deployment cost (requiring a runtime) is usually fine."
 - **Developer B (Advocating NativeAOT for specific niches):** "While JIT is great, there are clear cases where NativeAOT shines. Think of serverless functions where cold start time is critical, or tiny microservices running in highly dense container environments where every MB of memory and second of startup matters. Embedded devices or command-line tools also benefit from the self-contained, instant-on nature and minimal dependencies. Yes, build times are longer and dynamic code is limited, but for those specific needs, it's a game-changer."
 
 The choice of runtime implementation ultimately depends on your application's specific requirements for startup time, memory footprint, dynamic features, and deployment model.

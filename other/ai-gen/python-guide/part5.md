@@ -1244,4 +1244,4 @@ For example, a custom logging tool could use `sys.settrace` to log every functio
 - **[Part III: Advanced Type System and Modern Design](./part3.md):** Mastering abstract base classes, protocols, type annotations, and advanced annotation techniques that enhance code reliability and maintainability.
 - **[Part IV: Memory Management and Object Layout](./part4.md):** Understanding Python's memory model, object layout, and the garbage collection mechanisms that keep your applications running smoothly.
 - **[Part VI: Building, Deploying, and The Developer Ecosystem](./part6.md):** Covering packaging, dependency management, production deployment, and the essential tools and libraries that every Python developer should know.
-- **[Summary and Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.
+- **[Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.

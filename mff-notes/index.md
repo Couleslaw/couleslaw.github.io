@@ -17,7 +17,7 @@ title: MFF Notes | Jakub Smolik
 - [Matematická analýza 2](03/Analyza-2.pdf) [CS]
 - Mathematical Analysis 3 - to be added later
 - [Ordinary Differential Equations](05/ODE.pdf) [EN, Trinity]
-- [Fourier Analysis](05/Fourier-analysis.pdf) [EN, Trinity]
+- [Fourier Analysis for Science](05/Fourier-analysis.pdf) [EN, Trinity]
 
 #### Discrete Mathematics & Logic
 

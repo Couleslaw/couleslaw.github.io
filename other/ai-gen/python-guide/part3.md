@@ -969,4 +969,4 @@ jobs:
 - **[Part IV: Memory Management and Object Layout](./part4.md):** Understanding Python's memory model, object layout, and the garbage collection mechanisms that keep your applications running smoothly.
 - **[Part V: Performance, Concurrency, and Debugging](./part5.md):** Examining concurrency models, performance optimization techniques, and debugging strategies that help you write efficient and robust code.
 - **[Part VI: Building, Deploying, and The Developer Ecosystem](./part6.md):** Covering packaging, dependency management, production deployment, and the essential tools and libraries that every Python developer should know.
-- **[Summary and Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.
+- **[Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.

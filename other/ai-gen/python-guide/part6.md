@@ -1493,4 +1493,4 @@ By applying these criteria, you can make informed decisions that lead to more ro
 - **[Part III: Advanced Type System and Modern Design](./part3.md):** Mastering abstract base classes, protocols, type annotations, and advanced annotation techniques that enhance code reliability and maintainability.
 - **[Part IV: Memory Management and Object Layout](./part4.md):** Understanding Python's memory model, object layout, and the garbage collection mechanisms that keep your applications running smoothly.
 - **[Part V: Performance, Concurrency, and Debugging](./part5.md):** Examining concurrency models, performance optimization techniques, and debugging strategies that help you write efficient and robust code.
-- **[Summary and Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.
+- **[Appendix](./appendix.md):** A collection of key takeaways, practical checklists and additional resources to solidify your understanding.
