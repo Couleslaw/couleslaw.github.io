@@ -246,11 +246,12 @@ To begin, analyze the entire table of contents and respond with:
 #### 3. The Common Type System (CTS): Values, References, and Memory Layout
 
 - **3.1. The Stack and the Heap**
-- **3.2. Value Types (`struct`)**
-- **3.3. Reference Types (`class`)**
-- **3.4. The Great Unification: `System.Object` and Boxing**
-- **3.5. Scope and Lifetime**
-- **3.6. Default Values and the `default` Keyword**
+- **3.2. The Great Unification: `System.Object`**
+- **3.3. Value Types (`struct`)**
+- **3.4. Reference Types (`class`)**
+- **3.5. Boxing and Unboxing**
+- **3.6. Scope and Lifetime**
+- **3.7. Default Values and the `default` Keyword**
 
 #### 4. Memory Management and Garbage Collection
 
@@ -519,7 +520,7 @@ using the quadruple backticks to ensure proper formatting.
 
 - Use `##` headers matching the table of contents.
 - Use both conceptual explanations and practical C# code examples.
-- When talking about a major topic, include links to relevant sections in the .NET documentation or other authoritative sources. Don't overload the text with links, but provide them where they add value.
+- When talking about a major topic, **include links** to relevant sections in the .NET documentation or other authoritative sources. Don't overload the text with links, but provide them where they add value.
 - End with a **Key Takeaways** bullet list summarizing major insights from the chapter.
 
 ---
@@ -552,11 +553,12 @@ Write chapter: [specific chapter from the following full table of contents]
 #### 3. The Common Type System (CTS): Values, References, and Memory Layout
 
 - **3.1. The Stack and the Heap:** A definitive guide to where your data lives. Exploring method calls, stack frames, and object allocation strategies.
-- **3.2. Value Types (`struct`):** In-depth analysis of their memory layout, storage implications on the stack or inline within objects, and performance characteristics.
-- **3.3. Reference Types (`class`):** Understanding object headers (Method Table Pointer, Sync Block), and how object references are stored on the stack or within other objects.
-- **3.4. The Great Unification: `System.Object` and Boxing:** How value types can be implicitly or explicitly converted to objects (boxing) and the associated performance cost of boxing and unboxing.
-- **3.5. Scope and Lifetime:** Differentiating lexical scope in C# (compile-time visibility) from object lifetime managed by the Garbage Collector (runtime memory management).
-- **3.6. Default Values and the `default` Keyword:** Understanding the default initialization values for built-in types (e.g., `int` to `0`, `bool` to `false`, reference types to `null`), and the `default` keyword for obtaining these values for any type.
+- **3.2. The Great Unification: `System.Object`:** Understanding the ultimate base type for all C# types and the foundational role of type metadata and the Method Table.
+- **3.3. Value Types (`struct`):** In-depth analysis of their memory layout, why `System.ValueType` exists, storage implications on the stack or inline within objects, performance characteristics, and the Method Table's role for unboxed instances.
+- **3.4. Reference Types (`class`):** Understanding object headers (Method Table Pointer, Sync Block Index), how object references are stored, the detailed contents of the Method Table, and its relationship to `System.Type` and reflection.
+- **3.5. Boxing and Unboxing:** How value types are converted to objects (boxing), the associated significant performance costs, and strategies to avoid it.
+- **3.6. Scope and Lifetime:** Differentiating lexical scope in C# (compile-time visibility) from object lifetime managed by the Garbage Collector (runtime memory management).
+- **3.7. Default Values and the `default` Keyword:** Understanding the default initialization values for built-in types (e.g., `int` to `0`, `bool` to `false`, reference types to `null`), and the `default` keyword for obtaining these values for any type.
 
 #### 4. Memory Management and Garbage Collection
 

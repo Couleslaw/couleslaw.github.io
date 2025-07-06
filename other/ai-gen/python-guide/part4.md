@@ -565,7 +565,7 @@ It's crucial to understand that while `PyObject_HEAD` is fundamental to all Pyth
 **Mental Diagram: `PyObject` Layout (General Form)**
 
 ```
-+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+\
++--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ \
 |                 *_gc_next                     | |
 +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ | PyGC_Head (16 bytes), for GC-tracked objects
 |                 *_gc_prev                     | |

@@ -54,16 +54,17 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 
 ### [Part II: Types, Memory, and Core Language Internals](./part2.md)
 
-#### 3. The Common Type System (CTS): Values, References, and Memory Layout
+#### [3. The Common Type System (CTS): Values, References, and Memory Layout](./part2.md#3-the-common-type-system-cts-values-references-and-memory-layout-1)
 
 - 3.1. The Stack and the Heap
-- 3.2. Value Types (`struct`)
-- 3.3. Reference Types (`class`)
-- 3.4. The Great Unification: `System.Object` and Boxing
-- 3.5. Scope and Lifetime
-- 3.6. Default Values and the `default` Keyword
+- 3.2. The Great Unification: `System.Object`
+- 3.3. Value Types (`struct`)
+- 3.4. Reference Types (`class`)
+- 3.5. Boxing and Unboxing
+- 3.6. Scope and Lifetime
+- 3.7. Default Values and the `default` Keyword
 
-#### 4. Memory Management and Garbage Collection
+#### [4. Memory Management and Garbage Collection](./part2.md#4-memory-management-and-garbage-collection-1)
 
 - 4.1. The .NET Generational Garbage Collector
 - 4.2. The Large Object Heap (LOH)
@@ -71,7 +72,7 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 - 4.4. Weak References
 - 4.5. Advanced GC
 
-#### 5. Assemblies, Type Loading, and Metadata
+#### [5. Assemblies, Type Loading, and Metadata](./part2.md#5-assemblies-type-loading-and-metadata-1)
 
 - 5.1. Assembly Loading
 - 5.2. Organizing Code: Namespaces, File-Scoped Namespaces (C# 10), and Global Usings (C# 10)
@@ -81,7 +82,7 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 - 5.6. Attributes: Metadata for Control and Information
 - 5.7. Custom Attributes: Definition, Usage, and Reflection
 
-#### 6. Access Modifiers: Visibility, Encapsulation, and Advanced Scenarios
+#### [6. Access Modifiers: Visibility, Encapsulation, and Advanced Scenarios](./part2.md#6-access-modifiers-visibility-encapsulation-and-advanced-scenarios-1)
 
 - 6.1. Fundamental Modifiers (`public`, `private`)
 - 6.2. Assembly-level Modifiers (`internal`, `file` C# 11)
