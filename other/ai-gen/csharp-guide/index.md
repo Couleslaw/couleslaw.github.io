@@ -95,22 +95,25 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 
 - 7.1. The Anatomy of a Class
 - 7.2. Constructors Deep Dive
-- 7.3. Properties, Indexers, and Events
-- 7.4. Class Inheritance and Polymorphism
-- 7.5. Virtual Dispatch and V-Tables
-- 7.6. Operator Overloading and User-Defined Conversions
-- 7.7. Nested Types and Local Functions
-- 7.8. The `this` Keyword: Instance Reference and Context
-- 7.9. The `sealed` Keyword
+- 7.3. The `this` Keyword: Instance Reference and Context
+- 7.4. Core Class Members: Properties, Indexers, and Events
+- 7.5. Class Inheritance: Foundations and Basic Design
+- 7.6. Polymorphism Deep Dive: `virtual`, `abstract`, `override`, and `new`
+- 7.7. Virtual Dispatch and V-Tables
+- 7.8. The `sealed` Keyword
+- 7.9. Type Conversions: Implicit, Explicit, Casting, and Safe Type Checks
+- 7.10. Method Resolution Deep Dive: Overloading and Overload Resolution
+- 7.11. Operator Overloading and User-Defined Conversion Operators
+- 7.12. Nested Types and Local Functions
 
 #### 8. Structs: Value Types and Performance Deep Dive
 
-- 8.1. The Anatomy of a Struct
-- 8.2. Structs and Memory Layout
-- 8.3. Struct Constructors and Initialization
-- 8.4. Passing Structs: `in`, `ref`, `out` Parameters Revisited
-- 8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields`
-- 8.6. Structs vs. Classes
+- 8.1. The Anatomy, Memory Layout, and Boxing of a Struct
+- 8.2. Struct Constructors and Initialization
+- 8.3. Passing Structs: `in`, `ref`, `out` Parameters Revisited
+- 8.4. Struct Identity: Implementing `Equals()` and `GetHashCode()`
+- 8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields` (C# 11)
+- 8.6. Structs vs. Classes: Choosing the Right Type
 
 #### 9. Interfaces: Contracts, Implementation, and Modern Features
 

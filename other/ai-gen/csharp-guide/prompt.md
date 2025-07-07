@@ -132,6 +132,14 @@ _Introduction and the simplified table of contents_
 
 ## Prompt for Gemini to Actually Write the Chapters
 
+Also use this prompt after every major part completion and use the following as "Input":
+
+```markdown
+So far you have competed parts I and II. The next step is writing part III. Remind yourself of the TOC, reflect on what we have covered in parts I and II and think about what part III will focus on. Respond with your high level evaluation of these topics but dont write any chapter text yet.
+```
+
+Now the full prompt:
+
 ``````markdown
 **Act as an expert in C# and the .NET ecosystem**, with decades of experience writing production-grade software, designing complex systems, and teaching advanced C# concepts to professional developers. You are deeply familiar with modern language features (including those introduced in C# 12 and 13), low-level runtime behavior, and compiler interactions. You have a deep pedagogical understanding of how to clearly explain technical material to experienced practitioners.
 
@@ -282,24 +290,29 @@ To begin, analyze the entire table of contents and respond with:
 
 #### 7. Classes: Reference Types and Object-Oriented Design Deep Dive
 
+#### 7. Classes: Reference Types and Object-Oriented Design Deep Dive
+
 - **7.1. The Anatomy of a Class**
 - **7.2. Constructors Deep Dive**
-- **7.3. Properties, Indexers, and Events**
-- **7.4. Class Inheritance and Polymorphism**
-- **7.5. Virtual Dispatch and V-Tables**
-- **7.6. Operator Overloading and User-Defined Conversions**
-- **7.7. Nested Types and Local Functions**
-- **7.8. The `this` Keyword: Instance Reference and Context**
-- **7.9. The `sealed` Keyword**
+- **7.3. The `this` Keyword: Instance Reference and Context**
+- **7.4. Core Class Members: Properties, Indexers, and Events**
+- **7.5. Class Inheritance: Foundations and Basic Design**
+- **7.6. Polymorphism Deep Dive: `virtual`, `abstract`, `override`, and `new`**
+- **7.7. Virtual Dispatch and V-Tables**
+- **7.8. The `sealed` Keyword**
+- **7.9. Type Conversions: Implicit, Explicit, Casting, and Safe Type Checks**
+- **7.10. Method Resolution Deep Dive: Overloading and Overload Resolution**
+- **7.11. Operator Overloading and User-Defined Conversion Operators**
+- **7.12. Nested Types and Local Functions**
 
 #### 8. Structs: Value Types and Performance Deep Dive
 
-- **8.1. The Anatomy of a Struct**
-- **8.2. Structs and Memory Layout**
-- **8.3. Struct Constructors and Initialization**
-- **8.4. Passing Structs: `in`, `ref`, `out` Parameters Revisited**
+- **8.1. The Anatomy, Memory Layout, and Boxing of a Struct**
+- **8.2. Struct Constructors and Initialization**
+- **8.3. Passing Structs: `in`, `ref`, `out` Parameters Revisited**
+- **8.4. Struct Identity: Implementing `Equals()` and `GetHashCode()`**
 - **8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields` (C# 11)**
-- **8.6. Structs vs. Classes**
+- **8.6. Structs vs. Classes: Choosing the Right Type**
 
 #### 9. Interfaces: Contracts, Implementation, and Modern Features
 
@@ -522,11 +535,14 @@ using the quadruple backticks to ensure proper formatting.
 - Use both conceptual explanations and practical C# code examples.
 - When talking about a major topic, **include links** to relevant sections in the .NET documentation or other authoritative sources. Don't overload the text with links, but provide them where they add value.
 - End with a **Key Takeaways** bullet list summarizing major insights from the chapter.
+- when writing code examples, use realistic but compact scenarios. Do not user the Program class with `Main` method, but use C# top level statements or methods to demonstrate concepts.
 
 ---
 
 **Input:**
 Write chapter: [specific chapter from the following full table of contents]
+
+Once again: include links to documentation at the start of each major topic.
 ``````
 
 ## Final Full Table of Contents
@@ -589,24 +605,27 @@ Write chapter: [specific chapter from the following full table of contents]
 
 #### 7. Classes: Reference Types and Object-Oriented Design Deep Dive
 
-- **7.1. The Anatomy of a Class:** Object Headers, understanding instance vs. static members, static constructors and their execution order, and the `beforefieldinit` flag.
-- **7.2. Constructors Deep Dive:** Instance constructors, static constructors, and **Primary Constructors (C# 12)** for classes, detailing their execution flow and initialization semantics.
-- **7.3. Properties, Indexers, and Events:** Compiler transformation of properties into `get; set;` methods, `init`-only setters, `required` members (C# 11) for compile-time initialization enforcement, the `field` keyword in property accessors (C# 11), and the underlying mechanics of `add_` / `remove_` methods for events.
-- **7.4. Class Inheritance and Polymorphism:** How the CLR implements inheritance, method overriding, the `new` keyword, use of the `base` keyword, and object slicing considerations.
-- **7.5. Virtual Dispatch and V-Tables:** A deep dive into virtual method tables (V-tables) and how the CLR uses them for dynamic dispatch when `override` is applied.
-- **7.6. Operator Overloading and User-Defined Conversions:** The special `op_` methods the compiler looks for and how they are used to enable custom operator behavior and type conversions.
-- **7.7. Nested Types and Local Functions:** How nested types and local functions are represented in IL, their scope rules, and implications for closures.
-- **7.8. The `this` Keyword: Instance Reference and Context:** Comprehensive coverage of `this` for referring to the current instance, distinguishing from static members, constructor chaining, and other contextual uses.
-- **7.9. The `sealed` Keyword:** Using `sealed` on types to prevent inheritance and on methods to prevent further overriding in derived classes.
+- **7.1. The Anatomy of a Class:** Object Headers, understanding instance vs. static members, static constructors, and the `beforefieldinit` flag.
+- **7.2. Constructors Deep Dive:** Instance and static constructors, Primary Constructors (C# 12), and derived class constructor resolution.
+- **7.3. The `this` Keyword: Instance Reference and Context:** Comprehensive coverage of `this` for referring to the current instance and its contextual uses.
+- **7.4. Core Class Members: Properties, Indexers, and Events:** Compiler transformations, `init`-only setters, `required` members (C# 11), `field` keyword (C# 11), and event mechanics.
+- **7.5. Class Inheritance: Foundations and Basic Design:** How the CLR implements inheritance, the `base` keyword, and object slicing considerations.
+- **7.6. Polymorphism Deep Dive: `virtual`, `abstract`, `override`, and `new`:** The concept of runtime polymorphism, virtual member overriding, abstract members, and method hiding. What can be virtual and what can not.
+- **7.7. Virtual Dispatch and V-Tables:** A deep dive into virtual method tables (V-tables) and how the CLR uses them for dynamic dispatch.
+- **7.8. The `sealed` Keyword:** Using `sealed` on types and methods to control inheritance and overriding, and its impact on performance.
+- **7.9. Type Conversions: Implicit, Explicit, Casting, and Safe Type Checks:** Built-in conversions, explicit casting, and the `is` and `as` keywords for safe type checking.
+- **7.10. Method Resolution Deep Dive: Overloading and Overload Resolution:** Method overloading and the compiler's algorithm for selecting the best method in complex scenarios, including inheritance.
+- **7.11. Operator Overloading and User-Defined Conversion Operators:** How `op_` methods enable custom operator behavior and type conversions.
+- **7.12. Nested Types and Local Functions:** Their IL representation, scope rules, and implications for closures.
 
 #### 8. Structs: Value Types and Performance Deep Dive
 
-- **8.1. The Anatomy of a Struct:** Detailed memory layout when stored on the stack vs. on the heap (when part of a class or boxed).
-- **8.2. Structs and Memory Layout:** The implications of struct size, alignment, and padding on performance. How the CLR optimizes memory for structs.
-- **8.3. Struct Constructors and Initialization:** Understanding default constructors (C# 11 auto-default initialization), the `readonly` modifier for structs and struct members, and field initialization. Includes **Primary Constructors (C# 12)** for structs.
-- **8.4. Passing Structs: `in`, `ref`, `out` Parameters Revisited:** Detailed IL and performance implications of various parameter passing mechanisms for value types.
-- **8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields` (C# 11):** Deep dive into stack-only types, the compiler's safety enforcement, and their critical role in high-performance APIs like `Span<T>`.
-- **8.6. Structs vs. Classes:** A comprehensive comparison of features, typical use cases, and performance trade-offs, guiding optimal type choice.
+- **8.1. The Anatomy, Memory Layout, and Boxing of a Struct:** Detailed memory layout on stack vs. heap, and the performance implications of boxing.
+- **8.2. Struct Constructors and Initialization:** Understanding default and Primary Constructors (C# 12), `readonly` structs, and field initialization.
+- **8.3. Passing Structs: `in`, `ref`, `out` Parameters Revisited:** Detailed IL and performance implications of passing structs by `in`, `ref`, and `out`.
+- **8.4. Struct Identity: Implementing `Equals()` and `GetHashCode()`:** Best practices for implementing `Equals()` and `GetHashCode()` for structs to ensure correctness and performance.
+- **8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields` (C# 11):** Deep dive into stack-only types like `ref struct` and their role in high-performance APIs like `Span<T>`.
+- **8.6. Structs vs. Classes: Choosing the Right Type:** A comprehensive comparison of structs vs. classes, guiding optimal type choice and performance trade-offs.
 
 #### 9. Interfaces: Contracts, Implementation, and Modern Features
 
