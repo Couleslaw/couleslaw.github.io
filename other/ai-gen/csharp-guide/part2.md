@@ -150,6 +150,8 @@ List<object> mixedList = new List<object> { obj1, obj2, obj3 };
 
 For more details on `System.Object`, consult the official [System.Object Class documentation on Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.object).
 
+![object hierarchy](./images/object-hierarchy.png)
+
 ### `System.Object` Methods
 
 `System.Object` defines a small set of fundamental instance methods that all derived types inherit and can override. These methods include:
@@ -445,7 +447,7 @@ Boxing and unboxing are considered **expensive operations** and represent a comm
 - **Data Copying Overhead:** Data is copied at least twice: once during boxing (from source to heap) and potentially again during unboxing (from heap to target).
 - **Garbage Collection Pressure:** Each boxed object is a distinct new object on the heap, increasing the number of objects the Garbage Collector needs to track and manage. Frequent boxing can lead to more frequent and longer GC pauses, impacting application responsiveness.
 
-### When Boxing Occurs
+### When Boxing to `object` Occurs
 
 Boxing can happen implicitly or explicitly:
 
@@ -472,6 +474,48 @@ Boxing can happen implicitly or explicitly:
   object y = (object)x; // Explicit cast to object, causes boxing.
   ```
 
+### Boxing to Interface Types
+
+When a value type implements an interface, boxing occurs when the value type is assigned to an interface type variable. This allows the value type to be treated as an instance of the interface.
+
+```csharp
+interface IPrintable { void Print(); }
+
+struct Point : IPrintable
+{
+    public void Print() => Console.WriteLine("Point");
+}
+
+class Printer
+{
+    public static void PrintItem(IPrintable item) => item.Print();
+}
+
+Point point = new Point();
+Printer.PrintItem(point); // Boxing occurs here, Point is boxed to IPrintable
+```
+
+This can however be prevented by using generic interfaces or methods, which allow you to work with value types without boxing.
+
+```csharp
+interface IPrintable<T> { void Print(); }
+
+struct Point : IPrintable<Point>
+{
+    public void Print() => Console.WriteLine("Point");
+}
+
+class Printer
+{
+    public static void PrintItem<T>(IPrintable<T> item) => item.Print();
+}
+
+Point point = new Point();
+Printer.PrintItem(point);
+```
+
+No boxing occurs here because the method `PrintItem<T>` is generic and operates on `IPrintable<T>`, where `T` is the concrete type of the value being passed. The `Point` struct implements `IPrintable<Point>`, so the interface is _closed over the value type itself_. This allows the JIT to generate specialized, type-safe code that avoids boxing, since it can directly work with the value type without converting it to an `object` or reference type.
+
 ### Value Types and `Object.ReferenceEquals(object objA, object objB)`
 
 When comparing value types. If `objA` and `objB` are value types, they are boxed before they are passed to the `ReferenceEquals` method. This means that if both `objA` and `objB` represent the same instance of a value type, the `ReferenceEquals` method nevertheless returns `false`, as the following example shows.
@@ -491,6 +535,12 @@ Avoiding boxing, especially in performance-critical sections of your code, is cr
   List<int> myIntList = new List<int>();
   myIntList.Add(5); // No boxing
   int item = myIntList[0]; // No unboxing
+  ```
+- **Use Generic Interfaces:** If you need to work with interfaces and boxing is an issue, define them as generic interfaces. This allows you to pass value types without boxing.
+  ```csharp
+  interface IProcessor<T> { void Process(T item); }
+  struct IntProcessor : IProcessor<int> { public void Process(int item) { /* ... */ } }
+  static void RunProcessor<T>(IProcessor<T> processor, T item) => processor.Process(item);
   ```
 - **Use Specific Overloads:** Prefer method overloads that accept the specific value type rather than `object`.
 - **`Span<T>` and `Memory<T>` (C# 7.2+):** For high-performance memory manipulation, especially with contiguous memory blocks (like arrays or strings), these types allow you to work directly with the underlying data without allocations or boxing.

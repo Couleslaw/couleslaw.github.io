@@ -100,8 +100,13 @@ No single guide can cover every nuance of C# and .NET. Here are highly recommend
 ### Official Documentation
 
 - **Microsoft Learn (.NET Documentation):** The definitive and always up-to-date source for C#, .NET, ASP.NET Core, Entity Framework Core, etc.
-  - [https://learn.microsoft.com/en-us/dotnet/](https://learn.microsoft.com/en-us/dotnet/)
-  - [https://learn.microsoft.com/en-us/dotnet/csharp/](https://learn.microsoft.com/en-us/dotnet/csharp/)
+
+  - [.NET Documentation](https://learn.microsoft.com/en-us/dotnet/)
+  - [.NET Fundamentals](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
+  - [.NET Design Guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/)
+  - [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
+  - [C# Language Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
+  - [C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification)
 
 ### Books
 

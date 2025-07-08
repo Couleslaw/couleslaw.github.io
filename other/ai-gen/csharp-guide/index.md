@@ -91,7 +91,7 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 
 ### [Part III: Core C# Types: Design and Deep Understanding](./part3.md)
 
-#### 7. Classes: Reference Types and Object-Oriented Design Deep Dive
+#### [7. Classes: Reference Types and Object-Oriented Design Deep Dive](./part3.md#7-classes-reference-types-and-object-oriented-design-deep-dive-1)
 
 - 7.1. The Anatomy of a Class
 - 7.2. Constructors Deep Dive
@@ -102,16 +102,17 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 - 7.7. Virtual Dispatch and V-Tables
 - 7.8. The `sealed` Keyword
 - 7.9. Type Conversions: Implicit, Explicit, Casting, and Safe Type Checks
-- 7.10. Method Resolution Deep Dive: Overloading and Overload Resolution
-- 7.11. Operator Overloading and User-Defined Conversion Operators
-- 7.12. Nested Types and Local Functions
+- 7.10. Operator Overloading and User-Defined Conversion Operators
+- 7.11. Parameter Modifiers: `ref`, `out`, `in`, and `ref` Variables
+- 7.12. Method Resolution Deep Dive: Overloading and Overload Resolution
+- 7.13. Nested Types and Local Functions
 
-#### 8. Structs: Value Types and Performance Deep Dive
+#### [8. Structs: Value Types and Performance Deep Dive](./part3.md#8-structs-value-types-and-performance-deep-dive-1)
 
 - 8.1. The Anatomy, Memory Layout, and Boxing of a Struct
 - 8.2. Struct Constructors and Initialization
-- 8.3. Passing Structs: `in`, `ref`, `out` Parameters Revisited
-- 8.4. Struct Identity: Implementing `Equals()` and `GetHashCode()`
+- 8.3. Struct Identity: Implementing `Equals()` and `GetHashCode()`
+- 8.4. Passing Structs: `in`, `ref`, `out` Parameters Revisited
 - 8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields` (C# 11)
 - 8.6. Structs vs. Classes: Choosing the Right Type
 
