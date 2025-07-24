@@ -116,20 +116,35 @@ By engaging with this guide, you will gain an unparalleled understanding of C# f
 - 8.5. High-Performance Types: `ref struct`, `readonly ref struct`, and `ref fields` (C# 11)
 - 8.6. Structs vs. Classes: Choosing the Right Type
 
-#### 9. Interfaces: Contracts, Implementation, and Modern Features
+#### [9. Interfaces: Design, Implementation, and Key Contracts](./part3.md#9-interfaces-design-implementation-and-key-contracts-1)
 
 - 9.1. The Anatomy of an Interface
 - 9.2. Interface Dispatch
-- 9.3. Explicit vs. Implicit Implementation
-- 9.4. Modern Interface Features
+- 9.3. Interface Type Variables and Casting
+- 9.4. Explicit vs. Implicit Implementation
+- 9.5. Interface and Inheritance
+- 9.6. Modern Interface Features
 
-#### 10. Essential BCL Types and Interfaces: Design and Usage Patterns
+#### [10. Essential BCL Interfaces: Design and Usage Patterns](./part3.md#10-essential-c-interfaces-design-and-usage-patterns-1)
 
-- 10.1. Core Value Type Interfaces
-- 10.2. Collection Interfaces
-- 10.3. Resource Management Interfaces
-- 10.4. Fundamental Types Deep Dive
+- 10.1. Core Interfaces: Comparing, Formatting, and Parsing
+- 10.2. `IEnumerable`: The Magic Behind `foreach` and Iterator Methods
+- 10.3. Collection Interfaces and Iterators
+- 10.4. Resource Management: `IDisposable`
 - 10.5. Mathematical and Numeric Interfaces (Generic Math)
+
+#### [11. Fundamental C# Types: Core Data Structures and Utilities](./part3.md#11-fundamental-c-types-core-data-structures-and-utilities-1)
+
+- 11.1. Strings: Immutability, `StringBuilder`, and Performance
+- 11.2. Enumerations (`enum`): Underlying Types, Flags, and Best Practices
+- 11.3. Arrays and `List<T>`: Memory, Performance, and Related Types
+- 11.4. Hash-Based Collections: `Dictionary<TKey, TValue>` and `HashSet<T>`
+- 11.5. Tuples and `ValueTuple`: Structure, Memory, and Modern Usage
+- 11.6. I/O Streams and Readers/Writers
+- 11.7. Date, Time, and Unique Identifiers
+- 11.8. `Lazy<T>`: Deferred Initialization and Resource Management
+- 11.9. `Random`: Pseudorandomness, Seeding, and Thread Safety
+- 11.10. `Regex`: Regular Expression Compilation and Performance
 
 #### 11. Delegates, Lambdas, and Eventing: Functional Programming Foundations
 
