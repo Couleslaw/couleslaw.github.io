@@ -15,7 +15,7 @@ title: MFF Notes | Jakub Smolik
 - [Lineární algebra 1](01/Lingebra-1.pdf) [CS]
 - [Lineární algebra 2](02/Lingebra-2.pdf) [CS]
 - [Matematická analýza 2](03/Analyza-2.pdf) [CS]
-- Mathematical Analysis 3 - to be added later
+- [Mathematical Analysis 3](06/Analyza-3.pdf) [EN]
 - [Ordinary Differential Equations](05/ODE.pdf) [EN, Trinity]
 - [Fourier Analysis for Science](05/Fourier-analysis.pdf) [EN, Trinity]
 
@@ -26,7 +26,7 @@ title: MFF Notes | Jakub Smolik
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
-- [Graphs and Networks](06/Graphs-and-networks.pdf) [EN] - work in progress
+- [Graphs and Networks](06/Graphs-and-networks.pdf) [EN]
 
 #### Algorithms & Theoretical CS
 
