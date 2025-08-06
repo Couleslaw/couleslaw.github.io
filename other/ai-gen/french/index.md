@@ -91,31 +91,31 @@ So, get ready to unlock new conversations, new experiences, and a deeper underst
 - **Saying "No" and Asking Questions**
 - **Your First Verb Pattern: The -er Verbs**
 
-#### [Unit 4: Describing Your World](./unit3.md)
+#### [Unit 4: Describing Your World](./unit4.md)
 
 - **Adding Color with Adjectives**
 - **My Thing, Your Thing**
 - **Counting from 0 to 100**
 
-#### [Unit 5: Daily Life & Routines](./unit4.md)
+#### [Unit 5: Daily Life & Routines](./unit5.md)
 
 - **What Time Is It?**
 - **Days of the Week & Months**
 - **More Regular Verbs: -ir and -re**
 
-#### [Unit 6: Food, Drink & Going Out](./unit5.md)
+#### [Unit 6: Food, Drink & Going Out](./unit6.md)
 
 - **At the Café**
 - **Some Coffee, Some Water**
 - **At the Restaurant**
 
-#### [Unit 7: Getting Around Town](./unit6.md)
+#### [Unit 7: Getting Around Town](./unit7.md)
 
 - **Going Places with aller**
 - **Asking for Directions**
 - **The Near Future: What You're Going to Do**
 
-#### [Unit 8: Talking About the Past](./unit7.md)
+#### [Unit 8: Talking About the Past](./unit8.md)
 
 - **The Passé Composé with avoir**
 - **The Passé Composé with être**
