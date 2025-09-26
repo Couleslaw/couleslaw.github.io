@@ -13,7 +13,7 @@ Part I of the C# Mastery Guide lays the groundwork for understanding the .NET pl
 
 #### [1. The .NET Landscape](#1-the-net-landscape-1)
 
-- **[1.1. A Brief History of .NET](#11-a-brief-history-of-net):** the monolithic .NET Framework to the open-source, cross-platform world of .NET Core and modern .NET, highlighting key evolutionary milestones.
+- **[1.1. A Brief History of .NET](#11-a-brief-history-of-net):** The monolithic .NET Framework to the open-source, cross-platform world of .NET Core and modern .NET, highlighting key evolutionary milestones.
 - **[1.2. Runtimes & Implementations](#12-runtimes--implementations):** Exploring the Common Language Runtime (CLR), Mono (for Unity/MAUI), and CoreRT/NativeAOT. Discussing their trade-offs in performance, capabilities, and platform support.
 - **[1.3. SDKs, Runtimes, and Tooling](#13-sdks-runtimes-and-tooling):** Distinguishing between the .NET SDK (for development) and the Runtime (for execution), and detailing the roles of Visual Studio, VS Code, and the `dotnet` CLI for development and deployment.
 - **[1.4. The Base Class Library (BCL) Philosophy](#14-the-base-class-library-bcl-philosophy):** Exploring the design principles behind the .NET standard libraries, from `System.Object` to modern, high-performance APIs like `Span<T>`.
