@@ -9,6 +9,7 @@ title: AI-generated Learning Materials | Jakub Smolik
 - [.NET Ecosystem Explained](./dotnet-guide/)
 - [C# Mastery Guide](./csharp-guide/) - work in progress
 - [C Language Basics](./c-guide/)
+- [Programming in C++](./cpp-guide/)
 - [Japanese Beginner's course](./japanese.pdf)
 - [French for Czech Speakers](./french/index.md)
 - [Czech for French Speakers](./czech/index.md)
