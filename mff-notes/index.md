@@ -22,12 +22,12 @@ title: MFF Notes | Jakub Smolik
 #### Discrete Mathematics & Logic
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
-- [Teorie množin](https://raw.githack.com/Couleslaw/my-papers/main/cs/Introduction_To_Set_Theory.pdf) [CS, TeX]
-- [Infinite sets](https://raw.githack.com/Couleslaw/my-papers/main/en/Infinite_sets.pdf) [EN, TeX] - work in progress
+- [Teorie množin](04/Teorie-mnozin.pdf) [CS, TeX]
+- [Infinite sets](07/Infinite_sets.pdf) [EN, TeX] - work in progress
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
-- [Graphs and Networks](06/Graphs-and-networks.pdf) [EN]
+- [Graphs and Networks](06/Graphs-and-networks.pdf) [EN] - unfinished
 
 #### Algorithms & Theoretical CS
 

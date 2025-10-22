@@ -7,8 +7,6 @@ title: Papers | Jakub Smolik
 
 ### [Stirling's formula](https://raw.githack.com/Couleslaw/my-papers/main/en/Stirlings_Formula_EN.pdf) (2023)
 
-This paper was published on [arXiv](https://arxiv.org/abs/2310.04872).
-
 - proof of Stirlin's formula using only limits and Taylor series
 
 ## Czech texts
