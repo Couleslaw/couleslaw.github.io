@@ -57,8 +57,12 @@ title: MFF Notes | Jakub Smolik
 - [Principy počítačů](01/Principy-pocitacu.pdf) [CS]
 - [Počítačové systémy](02/Pocitacove-systemy.pdf) [CS]
 - [Úvod do počítačových sítí](01/Uvod-do-pocitacovych-siti.pdf) [CS]
-- [Úvod do Linuxu](https://github.com/Couleslaw/linux-notes) [EN]
+- [Úvod do Linuxu](https://github.com/Couleslaw/linux-notes) [EN, txt]
 
 #### Programming & Software Engineering
 
-- [Advanced C#](04/Advanced-CSharp/) [CS]
+- [Advanced C#](04/Advanced-CSharp/) [CS, md]
+
+#### Miscellaneous
+
+- [Dějiny matematiky](07/Dejiny-matematiky/) [CS, md]
