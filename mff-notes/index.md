@@ -33,6 +33,7 @@ title: MFF Notes | Jakub Smolik
 
 - [Algoritmy a datové struktury 1](02/ADS-1.pdf) [CS]
 - [Algoritmy a datové struktury 2](03/ADS-2.pdf) [CS]
+- [Introduction to approximation and randomized algorithms](07/Introduction-to-approximation-and-randomized-algorithms.pdf) [EN]
 - [Automaty a gramatiky](04/Autogramy.pdf) [CS]
 
 #### Optimization
@@ -62,7 +63,3 @@ title: MFF Notes | Jakub Smolik
 #### Programming & Software Engineering
 
 - [Advanced C#](04/Advanced-CSharp/) [CS]
-
-#### Miscellaneous
-
-- [Dějiny matematiky](07/Dejiny-matematiky/) [CS]
