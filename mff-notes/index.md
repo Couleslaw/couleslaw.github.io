@@ -27,6 +27,7 @@ title: MFF Notes | Jakub Smolik
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
+- [Selected chapters of combinatorics](07/vykako1.pdf) [EN]
 - [Graphs and Networks](06/Graphs-and-networks.pdf) [EN] - unfinished
 
 #### Algorithms & Theoretical CS

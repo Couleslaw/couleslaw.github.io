@@ -7,7 +7,7 @@ title: Home | Jakub Smolik
 
 ## About me
 
-I am a CS student at the Faculty of Mathematics and Physics, Charles University in Prague. Lately I've been focusing on set theory and analytical combinatorics. Other than that, I enjoy Sci-fi and Fantasy literature, especially The Witcher series and the works of Brandon Sanderson.
+I am a CS student at the Faculty of Mathematics and Physics, Charles University in Prague. Lately I've been focusing on infinitary combinatorics and WQO theory. Other than that, I enjoy Sci-fi and Fantasy literature, especially The Witcher series and the works of Brandon Sanderson.
 
 You can contact me at `smolikj (at) matfyz.cz`
 
