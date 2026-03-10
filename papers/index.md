@@ -3,6 +3,10 @@ layout: page
 title: Papers | Jakub Smolik
 ---
 
+> The ultimate goal of mathematics is to eliminate all need for intelligent thought.
+>
+> --- in **Concrete Mathematics: A Foundation for Computer Science**, by Ronald Graham, Donald Knuth, and Oren Patashnik (1989)
+
 ## English texts
 
 ### [Stirling's formula](https://raw.githack.com/Couleslaw/my-papers/main/en/Stirlings_Formula_EN.pdf) (2023)

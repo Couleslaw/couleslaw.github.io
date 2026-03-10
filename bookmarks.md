@@ -36,4 +36,6 @@ title: Bookmarks | Jakub Smolik
 ### Other
 
 - [Euclid's elements](https://www.c82.net/euclid/en) - a beautiful interactive reproduction
+- [Holocene calendar](https://michaelzrork.github.io/Holocene_Calendar/) - 12,000 years of human era
+- [Doomsday clock](https://thebulletin.org/doomsday-clock/timeline/) - how close we are to destroying our world
 - [Bonjour](https://online.bonjourr.fr/) - customizable minimalistic browser home page
