@@ -23,7 +23,7 @@ title: MFF Notes | Jakub Smolik
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
 - [Teorie množin](04/Teorie-mnozin.pdf) [CS, TeX]
-- [Infinite sets](07/Infinite-sets.pdf) [EN, TeX] - certain sections go far beyond the scope of the lecture
+- [Infinite sets](../infinite-sets.pdf) [EN, TeX] - certain sections go far beyond the scope of the lecture
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
