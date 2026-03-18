@@ -5,11 +5,11 @@ title: Past Talks | Jakub Smolik
 
 # Past Talks
 
-### 2026/3/18: _A short proof of the Halpern–Läuchli theorem_
+### 2026/3/18: A short proof of the Halpern–Läuchli theorem
 
-**Given at:** [Seminar on Reckoning](https://www.math.cas.cz/index.php/events/seminar/15)
+Given at: [Seminar on Reckoning](https://www.math.cas.cz/index.php/events/seminar/15)
 
-**Materials:** [handouts](./Halpern-Lauchli_sheet.pdf), [notes](./Halpern-Lauchli_notes.pdf)
+Materials: [handouts](./Halpern-Lauchli_sheet.pdf), [notes](./Halpern-Lauchli_notes.pdf)
 
 <details>
 <summary>Abstract</summary>
