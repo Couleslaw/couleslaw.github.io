@@ -142,7 +142,7 @@ Nedokončené povídání o teorii množin, důkazových technikách a logice.
 
 ### [Metody řešení neurčitých integrálů](https://raw.githack.com/Couleslaw/my-papers/main/cs/Methods_for_Finding_Antiderivatives.pdf) (2021/2022)
 
-Tenhle počin jsem psal jako svoji seminární práci z matematiky v posledním ročníku gymnázia. Ne všechno je tam dokázané a není to tak formální, jak analýza většinou bývá. Zato tato práce obsahuje spoustu řešených příkladů a pokrývá opravdu širokou škálu různých integračních metod.
+Moje seminární práce z matematiky na gymnáziu. Ne všechno je tam dokázané a není to tak formální, jak analýza většinou bývá. Zato tato práce obsahuje spoustu řešených příkladů a pokrývá opravdu širokou škálu různých integračních metod.
 
 <details><summary><b>Contents</b></summary>
 
