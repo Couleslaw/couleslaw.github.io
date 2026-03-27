@@ -20,7 +20,7 @@ The Hadwiger–Nelson problem asks for the chromatic number of the plane — the
 This connects to Erdős’s classical 1958 theorem that graphs with arbitrarily large girth and chromatic number exist. A natural question is whether this persists for unit-distance graphs: graphs whose vertices can be embedded into $\mathbb R^d$ such that the endpoints of each edge are at distance $1$. The best known lower bound on the chromatic number in this setting is due to Raigorodskii (2000), who showed that $\chi(G)\ge (1.239+o(1))^d$ is achievable. Kupavskii (2012) proved that for every $g$ there exists $c_g>1$ such that unit-distance graphs in $\mathbb{R}^d$ exist with girth at least $g$ and $\chi(G)\ge (c_g+o(1))^d$, although known estimates of $c_g$ tend to 1 as $g$ grows.
 <br>
 <br>
-In this talk, I will present a <a href="https://doi.org/10.1080/00029890.2025.2541528">recent paper by Matija Bucić and James Davies</a> in which they prove the existence of unit-distance graphs in $\mathbb R^d$ with chromatic number at least $(1.074+o(1))^d$ that have arbitrarily large girth. The same construction also yields graphs with large chromatic number and high girth in other geometric settings, namely diameter graphs and orthogonality graphs.
+In this talk I present a <a href="https://doi.org/10.1080/00029890.2025.2541528">recent paper by Matija Bucić and James Davies</a> in which they prove the existence of unit-distance graphs in $\mathbb R^d$ with chromatic number at least $(1.074+o(1))^d$ that have arbitrarily large girth. The same construction also yields graphs with large chromatic number and high girth in other geometric settings, namely diameter graphs and orthogonality graphs.
 
 </details>
 
