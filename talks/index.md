@@ -3,7 +3,41 @@ layout: page
 title: Past Talks | Jakub Smolik
 ---
 
+# Future Talks
+
+### 2026/5/20: An elementary proof of Stirling’s formula
+
+Given at [Optimization Seminar](https://kam.mff.cuni.cz/~hladik/OS/)
+
+Materials: [notes in Czech](https://raw.githack.com/Couleslaw/my-papers/main/cs/Stirlings_Formula_CS.pdf) and [partial notes in English](https://raw.githack.com/Couleslaw/my-papers/main/en/Stirlings_Formula_EN.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In the first part of the talk, we will prove Stirling's approximation of the factorial using elementary methods such as limits and Taylor series.
+<br>
+<br>
+The second part of the talk will be about real numbers. We consider a graph <a href="https://doi.org/10.1016/S0097-3165(03)00102-X">proposed by Shelah and Soifer</a> $G=(\mathbb R,\,E)$, where $x$ and $y$ are adjacent if $|x-y|=q+\sqrt 2$ for some rational number $q$. We show that in $\mathsf{ZFC}$, the chromatic number is $\chi(G)=2$. In contrast, under the assumption that every subset of $\mathbb R$ is Lebesgue measurable (which is consistent relative the existence of an inaccessible cardinal), the chromatic number becomes uncountable.
+<br>
+<br>
+Both the axiom of choice $\mathsf{AC}$ and the axiom of measurability $\mathsf{LM}$ are consistent and both have different paradoxical consequences. $\mathsf{AC}$ allows us to construct non-measurable sets, resulting in the Banach-Tarski paradox. This is fixed when we assume $\mathsf{LM}$, but at the cost of losing objects like non-principle ultrafilters on $\mathbb N$.
+
+</details>
+
 # Past Talks
+
+### 2026/4/13: A Proof of the 3/4-conjecture for the total domination game
+
+Given at [Spring School of Combinatorics](https://kam.mff.cuni.cz/~spring/2026/)
+
+Materials: [handouts](./2026-4_3-over-4-conjecture_handout.pdf), [slides](./2026-4_3-over-4-conjecture_slides.pdf) and [notes](./2026-4_3-over-4-conjecture_notes.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Let $G=(V,\,E)$ be a graph without isolated vertices. A vertex $v$ is <i>totally dominated</i> by a set $A\subseteq V$ if it has a neighbour in $A$. The total domination game on $G$ is played by $2$ players, Dominator and Staller, who alternate in selecting vertices such that each newly selected vertex increases the number of vertices that are totally dominated by the set of selected vertices $A$. The game stops when $A$ totally dominates every vertex of $G$. Dominator's aim is to minimize $|A|$, while Staller wants to maximize it. The <i>game total domination number</i> $\gamma_{tg}(G)$ is the number of vertices in the resulting set when Dominator starts the game and both players play optimally. Henning, Klavžar, and Rall proved that if $G$ has no isolated vertices or edges and $|V|=n$, then $\gamma_{tg}(G)\le \frac{4}{5}n$, and they conjectured that in fact $\gamma_{tg}(G)\le \frac{3}{4}n$. Portier and Versteegen <a href="https://doi.org/10.1137/23M1551584">recently confirmed this conjecture</a>.
+
+</details>
 
 ### 2026/3/27: Geometric graphs with exponential chromatic number and arbitrary girth
 
@@ -28,7 +62,7 @@ In this talk I present a <a href="https://doi.org/10.1080/00029890.2025.2541528"
 
 Given at: [Seminar on Reckoning](https://www.math.cas.cz/index.php/events/seminar/15)
 
-Materials: [handouts](./2026-3_Halpern-Lauchli_sheet.pdf), [notes](./2026-3_Halpern-Lauchli_notes.pdf)
+Materials: [handouts](./2026-3_Halpern-Lauchli_sheet.pdf) and [notes](./2026-3_Halpern-Lauchli_notes.pdf)
 
 <details>
 <summary>Abstract</summary>
