@@ -7,7 +7,7 @@ title: Home | Jakub Smolik
 
 ## About me
 
-I am a CS student at the Faculty of Mathematics and Physics, Charles University in Prague. Lately I've been interested in well-quasi-ordering infinite graphs and Ramsey theory. Other than that, I enjoy Sci-fi and Fantasy literature, especially The Witcher series and the works of Brandon Sanderson.
+I am a CS student at the Faculty of Mathematics and Physics, Charles University in Prague. Lately I've been interested in well-quasi-orderigs, Ramsey theory, and set theory. Other than that, I enjoy Sci-fi and Fantasy literature, especially The Witcher series and the works of Brandon Sanderson.
 
 You can contact me at `smolikj (at) matfyz.cz`
 
@@ -27,6 +27,9 @@ You can contact me at `smolikj (at) matfyz.cz`
 
 ## Favorite projects
 
+- [Bachelor's thesis](./bc-thesis.pdf)
+  - In my bachelor's thesis, I studied well-quasi-orderings, focusing on infinite graphs and order-theoretic trees.
+  - For instance, we prove that out-trees are wqo by homomorphisms, and extend Ding's theorem to infinite graphs. We also consider generalizations of wqos motivated by Vopěnka's principle
 - [Project L Digital Board Game](https://github.com/Couleslaw/Project-L)
   - Digital version of the **Project L** [board game](https://www.boardcubator.com/games/project-l/) implemented in Unity.
   - **Project L** is a fast-paced strategic board game for up to 4 players, where you complete puzzles by filling them in with Tetris-like pieces.

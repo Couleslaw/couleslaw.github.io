@@ -9,6 +9,10 @@ title: Papers | Jakub Smolik
 
 ## English texts
 
+### [Hindman by combinatorial forcing](https://raw.githack.com/Couleslaw/my-papers/main/en/Hindman_proof.pdf) (2026)
+
+- a short proof of Hindman's theorem using combinatorial forcing
+
 ### [Infinite sets](../infinite-sets.pdf) (2025/2026)
 
 This started as lectures notes from the course [Infinite sets](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI074) at MFF UK, but have since been expanded significantly and now cover much more than the original course material. Work in progress.

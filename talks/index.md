@@ -5,6 +5,19 @@ title: Past Talks | Jakub Smolik
 
 # Future Talks
 
+### 2026/5/22: Introduction to WQO theory
+
+Given at [Seminar on Combinatorics](https://kam.mff.cuni.cz/~ksemweb/)
+
+Materials: [notes](./2026-5_wqo.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We define well-quasi-orderings and prove several equivalent characterizations. We then explain how wqos allow monotone properties to be characterized by a finite set of minimal obstructions, as exemplified by the celebrated graph minor theorem of Neil Robertson and Paul Seymour. Finally, we prove Higman's lemma, Kruskal's tree theorem, and Ding's theorem. If time permits, we will also discuss how wqo theory extends to infinite structures through the notion of better-quasi-orderings.
+
+</details>
+
 ### 2026/5/20: An elementary proof of Stirling’s formula
 
 Given at [Optimization Seminar](https://kam.mff.cuni.cz/~hladik/OS/)
