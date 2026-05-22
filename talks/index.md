@@ -3,7 +3,7 @@ layout: page
 title: Past Talks | Jakub Smolik
 ---
 
-# Future Talks
+# Past Talks
 
 ### 2026/5/22: Introduction to WQO theory
 
@@ -36,8 +36,6 @@ The second part of the talk will be about real numbers. We consider a graph <a h
 Both the axiom of choice $\mathsf{AC}$ and the axiom of measurability $\mathsf{LM}$ are consistent and both have different paradoxical consequences. $\mathsf{AC}$ allows us to construct non-measurable sets, resulting in the Banach-Tarski paradox. This is fixed when we assume $\mathsf{LM}$, but at the cost of losing objects like non-principle ultrafilters on $\mathbb N$.
 
 </details>
-
-# Past Talks
 
 ### 2026/4/13: A Proof of the 3/4-conjecture for the total domination game
 

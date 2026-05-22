@@ -36,6 +36,7 @@ title: Bookmarks | Jakub Smolik
 
 ### Other
 
+- [farmapa](https://www.farmapa.cz/) - a map of Czech farms and local producers
 - [Euclid's elements](https://www.c82.net/euclid/en) - a beautiful interactive reproduction
 - [Holocene calendar](https://michaelzrork.github.io/Holocene_Calendar/) - 12,000 years of human era
 - [Doomsday clock](https://thebulletin.org/doomsday-clock/timeline/) - how close we are to destroying our world
