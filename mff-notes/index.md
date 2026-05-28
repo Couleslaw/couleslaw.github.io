@@ -18,6 +18,7 @@ title: MFF Notes | Jakub Smolik
 - [Mathematical Analysis 3](06/Analyza-3.pdf) [EN]
 - [Ordinary Differential Equations](05/ODE.pdf) [EN, Trinity]
 - [Fourier Analysis for Science](05/Fourier-analysis.pdf) [EN, Trinity]
+- [Topological Methods in Combinatorics](08/Topological-methods-in-combinatorics.pdf) [EN]
 
 #### Discrete Mathematics & Logic
 

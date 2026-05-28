@@ -27,7 +27,7 @@ You can contact me at `smolikj (at) matfyz.cz`
 
 ## Favorite projects
 
-- [Bachelor's thesis](./bc-thesis.pdf)
+- [Bachelor's thesis](./bc-thesis.pdf) -- under the supervision of Jan Hubička and Jaroslav Nešetřil
   - In my bachelor's thesis, I studied well-quasi-orderings, focusing on infinite graphs and order-theoretic trees.
   - For instance, we prove that out-trees are wqo by homomorphisms, and extend Ding's theorem to infinite graphs. We also consider generalizations of wqos motivated by Vopěnka's principle
 - [Project L Digital Board Game](https://github.com/Couleslaw/Project-L)
