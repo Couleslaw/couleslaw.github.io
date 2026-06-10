@@ -24,18 +24,21 @@ title: MFF Notes | Jakub Smolik
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
 - [Teorie množin](04/Teorie-mnozin.pdf) [CS, TeX]
-- [Infinite sets](../infinite-sets.pdf) [EN, TeX] - certain sections go far beyond the scope of the lecture
+- [Infinite sets](../infinite-sets.pdf) [EN, TeX] -- certain sections go far beyond the scope of the lecture
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
-- [Selected chapters of combinatorics](07/vykako1.pdf) [EN]
-- [Graphs and Networks](06/Graphs-and-networks.pdf) [EN] - unfinished
+- Combinatorics and graphs 3 [EN] -- work in progress
+- [Graph minors and tree decompositions](08/Graph-minors-and-tree-decompositions.pdf) [EN]
+- [Selected chapters on combinatorics](07/vykako1.pdf) [EN]
+- [Graphs and Networks](06/Graphs-and-networks.pdf) [EN] -- unfinished
 
 #### Algorithms & Theoretical CS
 
 - [Algoritmy a datové struktury 1](02/ADS-1.pdf) [CS]
 - [Algoritmy a datové struktury 2](03/ADS-2.pdf) [CS]
 - [Introduction to approximation and randomized algorithms](07/Introduction-to-approximation-and-randomized-algorithms.pdf) [EN]
+- Approximation and online algorithms [EN] -- work in progress
 - [Automaty a gramatiky](04/Autogramy.pdf) [CS]
 
 #### Optimization
@@ -47,7 +50,7 @@ title: MFF Notes | Jakub Smolik
 #### Probability and Statistics
 
 - [Pravděpodobnost a statistika 1](04/PAST-1.pdf) [CS]
-- Multivariate Linear Analysis - [Theory](05/Multivariate-linear-analysis/Multivariate-linear-analysis.pdf), [R notes](05/Multivariate-linear-analysis/) [EN, Trinity]
+- Multivariate Linear Analysis: [Theory](05/Multivariate-linear-analysis/Multivariate-linear-analysis.pdf), [R notes](05/Multivariate-linear-analysis/) [EN, Trinity]
 
 #### Artificial Intelligence
 
