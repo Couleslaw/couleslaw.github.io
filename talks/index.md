@@ -5,6 +5,17 @@ title: Past Talks | Jakub Smolik
 
 # Past Talks
 
+### 2026/6/18: Defense of my bachelor's thesis
+
+Materials: [thesis](../bc-thesis.pdf) and [presentation](./2026-6_bachelor_thesis_defense.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+This thesis studies well-quasi-orderings and better-quasi-orderings of graphs under various containment relations. We give a direct proof that out-trees are wqo by the homomorphism relation via transfinite induction on a hierarchy of trees that we introduce, and we investigate extensions of this approach to leaf-labeled trees. For graphs, we analyze structural parameters that yield natural wqo classes. In particular, we extend a theorem of Ding by proving that every class of (finite or infinite) graphs with bounded tree-depth is wqo by the induced subgraph relation, and we show that graph classes with bounded independence number are wqo by the subgraph relation. Lastly, we consider generalizations of well-quasi-orderings motivated by the large cardinal axiom known as Vopěnka's principle.
+
+</details>
+
 ### 2026/5/22: Introduction to WQO theory
 
 Given at [Seminar on Combinatorics](https://kam.mff.cuni.cz/~ksemweb/)
