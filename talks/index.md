@@ -7,7 +7,7 @@ title: Past Talks | Jakub Smolik
 
 ### 2026/6/18: Defense of my bachelor's thesis
 
-Materials: [thesis](../bc-thesis.pdf) and [presentation](./2026-6_bachelor_thesis_defense.pdf)
+Materials: [thesis](../bc-thesis.pdf) and [slides](./2026-6_bachelor_thesis_defense.pdf)
 
 <details>
 <summary>Abstract</summary>
