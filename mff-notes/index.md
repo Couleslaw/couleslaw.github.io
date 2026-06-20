@@ -24,7 +24,7 @@ title: MFF Notes | Jakub Smolik
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
 - [Teorie množin](04/Teorie-mnozin.pdf) [CS, TeX]
-- [Infinite sets](../infinite-sets.pdf) [EN, TeX] -- certain sections go far beyond the scope of the lecture
+- [Infinite sets](../infinite-sets.pdf) [EN, TeX]
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
 - [Kombinatorika a grafy 2](06/Kombagra-2.pdf) [CS]
@@ -38,7 +38,7 @@ title: MFF Notes | Jakub Smolik
 - [Algoritmy a datové struktury 1](02/ADS-1.pdf) [CS]
 - [Algoritmy a datové struktury 2](03/ADS-2.pdf) [CS]
 - [Introduction to approximation and randomized algorithms](07/Introduction-to-approximation-and-randomized-algorithms.pdf) [EN]
-- Approximation and online algorithms [EN] -- work in progress
+- [Approximation and online algorithms](08/Approximation-and-online-algorithms.pdf) [EN]
 - [Automaty a gramatiky](04/Autogramy.pdf) [CS]
 
 #### Optimization
