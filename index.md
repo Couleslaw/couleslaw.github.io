@@ -39,7 +39,7 @@ You can contact me at `smolikj (at) matfyz.cz`
   - This was my Individual Software Project (_ročníkový projekt_) at MFF UK.
 - [Infinite Sets](./infinite-sets.pdf)
   - Covers a wide range of topics in set theory, including ordinal and cardinal arithmetic, large cardinals, ultrafilters, infinite trees, partition relations, the Banach--Tarski paradox, and much more. Work in progress.
-  - I also have a [shorter introduction to set theory](https://raw.githack.com/Couleslaw/my-papers/main/cs/Introduction_To_Set_Theory.pdf) (written in Czech)
+  - I also have a [shorter introduction to set theory](./temno.pdf) (written in Czech)
 - [Direction Field Visualizer](https://github.com/Couleslaw/Direction-Field-Visualizer)
   - Python application for visualizing direction fields and an art generator at the same time!
   - The [image gallery](https://github.com/Couleslaw/Direction-Field-Visualizer/wiki/gallery) showcases some of the incredible abstract art that can be created with this tool.

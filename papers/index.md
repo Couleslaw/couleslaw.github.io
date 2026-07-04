@@ -61,7 +61,7 @@ This started as lectures notes from the course [Infinite sets](https://is.cuni.c
 
 Všichni známe klasickou spojitou analýzu zabývající se derivacemi a integrály. Diskrétní analýza se zabývá diferencemi a sumami a umožňuje nám hledat součty řad podobně jako určité integrály.
 
-<details><summary><b>Contents</b></summary>
+<details><summary><b>Obsah</b></summary>
 
 <ul>
 <li>diference, neurčitá a určitá suma</li>
@@ -74,11 +74,11 @@ Všichni známe klasickou spojitou analýzu zabývající se derivacemi a integr
 
 </details>
 
-### [Úvod do teorie množin](https://raw.githack.com/Couleslaw/my-papers/main/cs/Introduction_To_Set_Theory.pdf) (2024)
+### [Úvod do teorie množin](../temno.pdf) (2024, rozšířeno 2026)
 
 Mé poznámky z předmětu [Teorie množin](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL063) na MFF UK.
 
-<details><summary><b>Contents</b></summary>
+<details><summary><b>Obsah</b></summary>
 
 <ul>
 <li>vysvětlení problémů Cantorovy naivní teorie množin</li>
@@ -89,12 +89,13 @@ Mé poznámky z předmětu [Teorie množin](https://is.cuni.cz/studium/predmety/
 <li>důkaz, že každá dvě lineární uspořádání na konečné množině jsou izomorfní</li>
 <li>důkaz, že množina všech přirozených čísel $\omega$ je dobře uspořádaná relací $\in$</li>
 <li>vlastnosti spočetných množin, důkaz Cantorovy věty o kardinalitě</li>
-<li>důkaz, že $^\omega 2\approx \mathcal{P}(\omega)\approx\mathbf{R}\approx[0,\,1]$</li>
+<li>důkaz, že $\mathcal{P}(\omega)\approx\mathbf{R}\approx[0,\,1]$</li>
 <li>Cantorův důkaz, že algebraických čísel je spočetně mnoho</li>
 <li>axiom výběru a jeho ekvivalence: princip maximality, princip trichotomie, princip dobrého uspořádání, důkaz některých implikací</li>
 <li>ordinální čísla, důkaz, že třída $\text{On}$ je dobře uspořádaná relací $\in$</li>
 <li>princip transfinitní indukce, konstrukce transfinitní rekurzí</li>
 <li>důkaz, že $\mathbf{R}^3$ je sjednocením disjunktních jednotkových kružnic</li>
+<li>základy kardinálních čísel</li>
 </ul>
 
 </details>

@@ -23,7 +23,7 @@ title: MFF Notes | Jakub Smolik
 #### Discrete Mathematics & Logic
 
 - [Diskrétní matematika](01/Diskretni-matematika.pdf) [CS]
-- [Teorie množin](04/Teorie-mnozin.pdf) [CS, TeX]
+- [Teorie množin](../temno.pdf) [CS, TeX]
 - [Infinite sets](../infinite-sets.pdf) [EN, TeX]
 - [Výroková a predikátová logika](03/Logika.pdf) [CS]
 - [Kombinatorika a grafy 1](03/Kombagra-1.pdf) [CS]
