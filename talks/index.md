@@ -5,6 +5,22 @@ title: Past Talks | Jakub Smolik
 
 # Past Talks
 
+### 2026/7/31: Well-quasi-ordering infinite trees by homomorphisms
+
+Given at the [Midsummer Combinatorial Workshop 2026](https://www.mff.cuni.cz/en/kam/events/mcw/mcw-2026)
+
+Materials: [slides](./2026-7_mcw2026.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We give a direct proof of a corollary of Nash-Williams’
+theorem about infinite trees, the proof of which requires the heavy machinery of better-quasi-orderings.
+In particular, we show that the class of all order-theoretic trees is well-quasi-ordered by
+the tree-homomorphism relation, and we do this while working only with well-quasi-orderings and the axiom of choice.
+
+</details>
+
 ### 2026/6/18: Defense of my bachelor's thesis
 
 Materials: [thesis](../bc-thesis.pdf) and [slides](./2026-6_bachelor_thesis_defense.pdf)
