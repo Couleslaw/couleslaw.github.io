@@ -14,10 +14,10 @@ Materials: [slides](./2026-7_mcw2026.pdf)
 <details>
 <summary>Abstract</summary>
 
-We give a direct proof of a corollary of Nash-Williams’
-theorem about infinite trees, the proof of which requires the heavy machinery of better-quasi-orderings.
-In particular, we show that the class of all order-theoretic trees is well-quasi-ordered by
-the tree-homomorphism relation, and we do this while working only with well-quasi-orderings and the axiom of choice.
+Kruskal proved in 1960 that finite trees are well-quasi-ordered by topological minors.
+Nash-Williams extended this in 1965 to infinite trees, but in order to do so, he had to introduce
+the much stronger notion of better-quasi-orderings.
+We show that a weakened version of Nash-Williams' theorem can be recovered while relying only on well-quasi-orderings.
 
 </details>
 
