@@ -9,7 +9,7 @@ title: Past Talks | Jakub Smolik
 
 Given at the [Midsummer Combinatorial Workshop 2026](https://www.mff.cuni.cz/en/kam/events/mcw/mcw-2026)
 
-Materials: [slides](./2026-7_mcw2026.pdf)
+Materials: [slides](./2026-7_mcw2026.pdf), [arXiv preprint](https://arxiv.org/abs/2608.02136)
 
 <details>
 <summary>Abstract</summary>

@@ -9,6 +9,12 @@ title: Papers | Jakub Smolik
 
 ## English texts
 
+### [Well-quasi-ordering infinite trees by homomorphisms](https://arxiv.org/abs/2608.02136) (2026)
+
+<details><summary><b>Abstract</b></summary>
+Assuming the axiom of choice, we show that a weakened version of Nash-Williams' theorem about infinite trees can be recovered while completely avoiding better-quasi-orderings. In particular, we give a direct proof that the class of all order-theoretic trees is well-quasi-ordered by the tree-homomorphism relation.
+</details>
+
 ### [Hindman by combinatorial forcing](https://raw.githack.com/Couleslaw/my-papers/main/en/Hindman_proof.pdf) (2026)
 
 - a short proof of Hindman's theorem using combinatorial forcing
