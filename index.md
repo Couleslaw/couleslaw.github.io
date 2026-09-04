@@ -17,10 +17,9 @@ You can contact me at `smolikj (at) matfyz.cz`
 
 ## References
 
-<!-- - [výuka/teaching](teaching) - odkazy na cvičení co vedu / jsem vedl na Matfyzu -->
-
+- [výuka/teaching](teaching) - odkazy na moje cvičení na Matfyzu
 - [my-papers](papers) - a collection of math related texts I have written over the years
-- [mff-notes](mff-notes) - notes from various university courses I have taken
+- [mff-notes](mff-notes) - notes from some of the university courses I have taken
 - [talks](talks) - list of my past talks/lectures
 - [github.com](https://github.com/couleslaw) - my github profile
 - [itch.io](https://itch.io/profile/couleslaw) - my game jam submissions
@@ -30,8 +29,7 @@ You can contact me at `smolikj (at) matfyz.cz`
 ## Favorite projects
 
 - [Bachelor's thesis](./bc-thesis.pdf) -- under the supervision of Jan Hubička and Jaroslav Nešetřil
-  - In my bachelor's thesis, I studied well-quasi-orderings, focusing on infinite graphs and order-theoretic trees.
-  - For instance, we prove that out-trees are wqo by homomorphisms, and extend Ding's theorem to infinite graphs. We also consider generalizations of wqos motivated by Vopěnka's principle
+  - In my bachelor's thesis, I studied well-quasi-orderings, focusing on infinite graphs and order-theoretic trees. I also consider a generalization of wqos motivated by Vopěnka's principle.
 - [Project L Digital Board Game](https://github.com/Couleslaw/Project-L)
   - Digital version of the **Project L** [board game](https://www.boardcubator.com/games/project-l/) implemented in Unity.
   - **Project L** is a fast-paced strategic board game for up to 4 players, where you complete puzzles by filling them in with Tetris-like pieces.

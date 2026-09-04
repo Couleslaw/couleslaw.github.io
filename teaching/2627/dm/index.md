@@ -7,7 +7,7 @@ title: Diskrétní matematika 2026/2027
 
 # Diskrétní matematika 2026/2027
 
-Cvičení povede [Jakub Smolík](../../..) a budou se konat každé XX od SS do EE v místnosti YY (v Impaktu). Patří k přednášce [Jiřího Fialy](https://kam.mff.cuni.cz/~fiala/index.shtml.cs).
+Cvičení se bude konat každou středu od 9:00 do 10:30 v místnosti N4 (v Impaktu). Patří k přednášce [prof. Jiřího Fialy](https://kam.mff.cuni.cz/~fiala/index.shtml.cs).
 
 Zadání domácích úkolů a výsledky vašich testíků najdete v [poštovní sově](https://owl.mff.cuni.cz/). Pro přihlášení do kurzu v sově použijete token, který vám předem pošlu mailem.
 
@@ -35,11 +35,11 @@ Na každém cvičení (kromě prvního) budeme psát malou písemku z látky pro
 
 Bude zadáno celkem 10 domácích úkolů (na prvních 10 cvičeních) po 3-5 bodech, vždy jeden až dva příklady podobné těm, co jsme dělali na cvičení. Za úkoly bude možné získat celkem 40 bodů.
 
-Úkoly bude možné vypracovat vždy pouze do půlnoci před konáním dalšího cvičení. Pokud úkol odevzdáte dostatečně brzy a nedostanete plný počet bodů, tak můžete opravit co se mi nelíbilo a odevzdat ho znovu.
+Úkoly bude možné vypracovat vždy pouze do začátku dalšího cvičení. Pokud úkol odevzdáte dostatečně brzy a nedostanete plný počet bodů, tak můžete opravit co se mi nelíbilo a odevzdat ho znovu.
 
 Domácí úkoly je možné konzultovat s ostatními, sepsat své vlastní řešení ovšem musí každý individuálně. Rozhodně mě prosím nenechávejte opravovat “vaše” řešení vygenerovaná umělou inteligencí, je to zbytečná ztráta jak mého, tak i vašeho času.
 
-Preferuje se digitální forma odevzdaného řešení. Pokud budete odevzdávat fotku papíru, ujistěte se že vaše písmo je dostatečně čitelné. Kromě výsledku musí být součástí řešení také jednoznačný postup. Můžete samozřejmě používat tvrzení dokázaná na přednášce nebo na cvičení. Nebojte se odevzdat i jen částečné řešení.
+Preferuje se digitální forma odevzdaného řešení. Pokud budete odevzdávat fotku papíru, ujistěte se, že vaše písmo je dostatečně čitelné. Kromě výsledku musí být součástí řešení také jednoznačný postup. Můžete samozřejmě používat tvrzení dokázaná na přednášce nebo na cvičení. Nebojte se odevzdat i jen částečné řešení.
 
 ### Aktivita
 
@@ -50,6 +50,20 @@ Také bude možné získat bonusové body za aktivitu během cvičení. Aktivito
 Pokud do Vánoc nasbíráte alespoň 80 bodů, ale do zápočtu vám budou stále nějaké body chybět, tak budete moci získat až 10 bodů za bonusový domácí úkol zadaný před Vánoci.
 
 ## Náplň cvičení
+
+- 30.9. [cvičení 1](./cv1.pdf) -- úkol
+- 7.10. -- testík, úkol
+- 14.10. -- testík, úkol
+- 21.10. -- testík, úkol
+- ~~28.10.~~ -- Den vzniku samostatného československého státu (28. řijna 1918)
+- 4.11. -- testík, úkol
+- 11.11. -- testík, úkol
+- 18.11. -- testík, úkol
+- 25.11. -- testík, úkol
+- 2.12. -- testík, úkol
+- 9.12. -- testík, úkol
+- 16.12. -- testík, bonusový domácí úkol
+- 6.1.2027 -- testík, opakování před zkouškami
 
 ## Užitečné odkazy
 
