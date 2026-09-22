@@ -77,5 +77,6 @@ Podle [pravidel pro organizaci studia](https://www.mff.cuni.cz/cs/vnitrni-zalezi
 
 - Řešení domácích úkolů můžete konzultovat s umělou inteligencí.
 - To NEZNAMENÁ nechat si vygenerovat řešení, ale nechat si například vysvětlit pojmy a koncepty kterým ne zcela rozumíte, případně požádat o nápovědu pokud se zaseknete a nechcete čekat na moji odpověď v sově.
-- Pokud se rozhodnete úkol konzultovat s AI, prosím použijte následující prompt: [česká verze](prompt_cs.txt), [anglická verze](prompt_en.txt)
-- Na konci semestru bych rád udělal anonymní dotazník, kde byste mi popsali do jaké míry jste tento přístup používali a zda vám přišel užitečný
+- Pokud se rozhodnete úkol konzultovat s AI, prosím použijte následující prompt: [česká verze](prompt_cs.txt), [anglická verze](prompt_en.txt).
+- Prosím mějte na paměti, že umělá inteligence může chybovat.
+- Na konci semestru bych rád udělal anonymní dotazník, kde byste mi popsali do jaké míry jste tento přístup používali a zda vám přišel užitečný.
