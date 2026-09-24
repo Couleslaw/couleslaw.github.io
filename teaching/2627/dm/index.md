@@ -21,7 +21,7 @@ Pokud máte pocit, že
 - neřekl jsem vám něco co byste měli vědět
 - měl bych něco změnit nebo vylepšit
 
-napište mi email na `smolikj (at) matfyz.cz` před tím než bude příliš pozdě, něco určitě vymyslíme.
+napište mi email na `smolikj (at) kam.mff.cuni.cz` před tím než bude příliš pozdě, něco určitě vymyslíme.
 
 ## Podmínky k zápočtu
 
@@ -43,7 +43,7 @@ Preferuje se digitální forma odevzdaného řešení. Pokud budete odevzdávat 
 
 ### Aktivita
 
-Také bude možné získat bonusové body za aktivitu během cvičení. Aktivitou je myšleno prezentování řešení nějaké úlohy nebo domácího úkolu u tabule. Za jedno cvičení můžete takto získat maximálně jeden bod.
+Také bude možné získat bonusové body za aktivitu během cvičení. Aktivitou je myšleno prezentování řešení nějaké úlohy nebo domácího úkolu u tabule. Za jedno cvičení můžete takto získat maximálně jeden bod. Horní limit na počet bonusových bodů je 10.
 
 ### Opravné písemky
 
