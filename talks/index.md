@@ -9,17 +9,7 @@ title: Past Talks | Jakub Smolik
 
 Given at the [Midsummer Combinatorial Workshop 2026](https://www.mff.cuni.cz/en/kam/events/mcw/mcw-2026)
 
-Materials: [slides](./2026-7_mcw2026.pdf), [arXiv preprint](https://arxiv.org/abs/2608.02136)
-
-<details>
-<summary>Abstract</summary>
-
-Kruskal proved in 1960 that finite trees are well-quasi-ordered by topological minors.
-Nash-Williams extended this in 1965 to infinite trees, but in order to do so, he had to introduce
-the much stronger notion of better-quasi-orderings.
-We show that a weakened version of Nash-Williams' theorem can be recovered while relying only on well-quasi-orderings.
-
-</details>
+Materials: [arXiv preprint](https://arxiv.org/abs/2608.02136)
 
 ### 2026/6/18: Defense of my bachelor's thesis
 
