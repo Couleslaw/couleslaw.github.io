@@ -9,7 +9,7 @@ title: Home | Jakub Smolik
 
 I am a CS student at the Faculty of Mathematics and Physics, Charles University in Prague. Lately I've been interested in well-quasi-orderigs, Ramsey theory, and set theory. Other than that, I enjoy Sci-fi and Fantasy literature, especially the Witcher series and the works of Brandon Sanderson.
 
-You can contact me at `smolikj (at) matfyz.cz`
+You can contact me at `smolikj (at) kam.mff.cuni.cz`
 
 > Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.
 >
