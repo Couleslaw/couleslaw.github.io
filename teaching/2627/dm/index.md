@@ -9,7 +9,7 @@ title: Diskrétní matematika 2026/2027
 
 Cvičení se bude konat každou středu od 9:00 do 10:30 v místnosti N4 (v Impaktu). Patří k přednášce [prof. Jiřího Fialy](https://kam.mff.cuni.cz/~fiala/index.shtml.cs).
 
-Zadání domácích úkolů a výsledky vašich testíků najdete v [poštovní sově](https://owl.mff.cuni.cz/). Pro přihlášení do kurzu v sově použijete token, který vám předem pošlu mailem.
+Zadání domácích úkolů a výsledky vašich testíků najdete v [poštovní sově](https://owl.mff.cuni.cz/). Pro přihlášení do kurzu v sově použijete token, který jsem vám poslal mailem. Pokud nevíte jak se do školního mailu přihlásit, podívejte se [sem](https://wiki.matfyz.cz/M365).
 
 ## Konzultace
 
@@ -17,8 +17,8 @@ Pokud máte pocit, že
 
 - něčemu nerozumíte
 - nestíháte odevzdat úkol včas
-- nevíte něco co byste měli vědět
-- neřekl jsem vám něco co byste měli vědět
+- nevíte něco, co byste měli vědět
+- neřekl jsem vám něco, co byste měli vědět
 - měl bych něco změnit nebo vylepšit
 
 napište mi email na `smolikj (at) kam.mff.cuni.cz` před tím než bude příliš pozdě, něco určitě vymyslíme.
@@ -35,7 +35,7 @@ Na každém cvičení (kromě prvního) budeme psát malou písemku (10 minut) z
 
 Bude zadáno celkem 10 domácích úkolů (na prvních 10 cvičeních); vždy dva příklady podobné těm, co jsme dělali na cvičení. Za každý příklad bude možné získat 2 body, tedy celkem 40 bodů.
 
-Úkoly bude možné vypracovat vždy pouze do začátku dalšího cvičení. Pokud úkol odevzdáte dostatečně brzy a nedostanete plný počet bodů, tak můžete opravit co se mi nelíbilo a odevzdat ho znovu.
+Úkoly bude možné vypracovat vždy pouze do začátku dalšího cvičení (s výjimkou prvních dvou úkolů: na ty budete mít dva týdny místo jednoho, abyste měli čas se rozkoukat). Pokud úkol odevzdáte dostatečně brzy a nedostanete plný počet bodů, tak můžete opravit co se mi nelíbilo a odevzdat ho znovu.
 
 Domácí úkoly je možné konzultovat s ostatními, sepsat své vlastní řešení ovšem musí každý individuálně. Rozhodně mě prosím nenechávejte opravovat „vaše“ řešení vygenerovaná umělou inteligencí, je to zbytečná ztráta jak mého, tak i vašeho času. Více o umělé inteligenci [níže](#umělá-inteligence-a-řešení-domácích-úkolů).
 
@@ -51,7 +51,7 @@ Podle [pravidel pro organizaci studia](https://www.mff.cuni.cz/cs/vnitrni-zalezi
 
 ## Náplň cvičení
 
-- 30.9. [cvičení 1](./cv1.pdf) -- úkol
+- 30.9. [cvičení 1](./cv1.pdf), [řešení](cv1-reseni.pdf) -- úkol
 - 7.10. [cvičení 2](./cv2.pdf) -- testík, úkol
 - 14.10. [cvičení 3](./cv3.pdf) -- testík, úkol
 - 21.10. -- testík, úkol

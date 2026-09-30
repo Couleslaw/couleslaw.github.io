@@ -3,6 +3,8 @@ layout: page
 title: Past Talks | Jakub Smolik
 ---
 
+O0
+
 # Past Talks
 
 ### 2026/7/31: Well-quasi-ordering infinite trees by homomorphisms
