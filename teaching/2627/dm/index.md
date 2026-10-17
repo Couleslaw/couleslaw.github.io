@@ -54,7 +54,7 @@ Podle [pravidel pro organizaci studia](https://www.mff.cuni.cz/cs/vnitrni-zalezi
 - 30.9. [cvičení 1](./cv1.pdf), [řešení](cv1-reseni.pdf) -- úkol
 - 7.10. [cvičení 2](./cv2.pdf), [řešení](cv2-reseni.pdf) -- testík, úkol
 - 14.10. [cvičení 3](./cv3.pdf), [řešení](cv3-reseni.pdf) -- testík, úkol
-- 21.10. -- testík, úkol
+- 21.10. [cvičení 4](./cv4.pdf) -- testík, úkol
 - ~~28.10.~~ -- Den vzniku samostatného československého státu (28. řijna 1918)
 - 4.11. -- testík, úkol
 - 11.11. -- testík, úkol
@@ -64,6 +64,8 @@ Podle [pravidel pro organizaci studia](https://www.mff.cuni.cz/cs/vnitrni-zalezi
 - 9.12. -- testík, úkol
 - 16.12. -- testík, opravná písemka
 - 6.1.2027 -- testík, opravná písemka
+
+Dávám také k dispozici nějaké [těžší úlohy](./tezke_ulohy.pdf) pro případ, že byste se během cvičení nudili.
 
 ## Užitečné odkazy
 
