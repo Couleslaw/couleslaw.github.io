@@ -9,7 +9,7 @@ title: Diskrétní matematika 2026/2027
 
 Cvičení se bude konat každou středu od 9:00 do 10:30 v místnosti N4 (v Impaktu). Patří k přednášce [prof. Jiřího Fialy](https://kam.mff.cuni.cz/~fiala/index.shtml.cs).
 
-Zadání domácích úkolů a výsledky vašich testíků najdete v [poštovní sově](https://owl.mff.cuni.cz/). Pro přihlášení do kurzu v sově použijete token, který jsem vám poslal mailem. Pokud nevíte jak se do školního mailu přihlásit, podívejte se [sem](https://wiki.matfyz.cz/M365).
+Zadání domácích úkolů a výsledky vašich testíků najdete v [poštovní sově](https://owl.mff.cuni.cz/). Pro přihlášení do kurzu v sově použijete token, který jsem vám poslal mailem.
 
 ## Konzultace
 
