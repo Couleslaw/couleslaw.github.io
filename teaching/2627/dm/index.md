@@ -20,8 +20,9 @@ Pokud máte pocit, že
 - nevíte něco, co byste měli vědět
 - neřekl jsem vám něco, co byste měli vědět
 - měl bych něco změnit nebo vylepšit
+- z nějakého důvodu nezvládáte získat zápočet
 
-napište mi email na `smolikj (at) kam.mff.cuni.cz` před tím než bude příliš pozdě, něco určitě vymyslíme.
+napište mi email na `smolikj (at) kam.mff.cuni.cz` před tím, než bude příliš pozdě. Něco určitě vymyslíme.
 
 ## Podmínky k zápočtu
 
