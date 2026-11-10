@@ -20,15 +20,11 @@ A graph $G$ is rigid if the only homomorphism $G\to G$ is the identity. A classi
 In this talk, I will present a shorter proof of the aforementioned theorem due to Nešetřil [2]. Based on an unpublished idea of Nešetřil, I will then introduce the concept of class-well-quasi-orderings (class-wqos) and prove several equivalent characterizations of Vopěnka's principle in this framework. Finally, I will discuss some natural open questions that arise from this perspective, as well as a related problem that was resolved by Shelah [3].
 <br>
 <br>
-[1] Petr Vopěnka, Aleš Pultr, and Zdeněk Hedrlín. A rigid relation
-exists on any set. Commentationes Mathematicae Universitatis
+[1] Petr Vopěnka, Aleš Pultr, and Zdeněk Hedrlín. A rigid relation exists on any set. Commentationes Mathematicae Universitatis Carolinae 6(2), 1965, pp. 149–155.
 <br>
-Carolinae 6(2), 1965, pp. 149–155.
-[2] Jaroslav Nešetřil. A rigid graph for every set. Journal of Graph
-Theory 39(2), 2002, pp. 108–110.
+[2] Jaroslav Nešetřil. A rigid graph for every set. Journal of Graph Theory 39(2), 2002, pp. 108–110.
 <br>
-[3] Saharon Shelah. Better quasi-orders for uncountable cardinals.
-Israel Journal of Mathematics 42(3), 1982, pp. 177–226.
+[3] Saharon Shelah. Better quasi-orders for uncountable cardinals. Israel Journal of Mathematics 42(3), 1982, pp. 177–226.
 
 </details>
 
