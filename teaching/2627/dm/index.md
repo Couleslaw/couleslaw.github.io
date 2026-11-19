@@ -64,7 +64,7 @@ Podle [pravidel pro organizaci studia](https://www.mff.cuni.cz/cs/vnitrni-zalezi
 - 2.12. -- testík, úkol
 - 9.12. -- testík, úkol
 - 16.12. -- testík, opravná písemka
-- 6.1.2027 -- testík, opravná písemka
+- 6.1.2027. [cvičení 12](./cv12.pdf) -- testík, opravná písemka. Pokud bude zájem, tak cvičení strávíme opakováním na zkoušku.
 
 Dávám také k dispozici nějaké [těžší úlohy](./tezke_ulohy.pdf) pro případ, že byste se během cvičení nudili.
 
