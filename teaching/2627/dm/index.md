@@ -60,7 +60,7 @@ Podle [pravidel pro organizaci studia](https://www.mff.cuni.cz/cs/vnitrni-zalezi
 - 4.11. [cvičení 5](./cv5.pdf), [řešení](./cv5-reseni.pdf) -- testík, úkol
 - 11.11. [cvičení 6](./cv6.pdf), [řešení](./cv6-reseni.pdf) -- testík, úkol
 - 18.11. [cvičení 7](./cv7.pdf), [řešení](./cv7-reseni.pdf) -- testík, úkol
-- 25.11. -- testík, úkol
+- 25.11. [cvičení 8](./cv8.pdf) -- testík, úkol
 - 2.12. -- testík, úkol
 - 9.12. -- testík, úkol
 - 16.12. -- testík, opravná písemka
